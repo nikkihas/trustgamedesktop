@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3257D7B2-B5CA-1DFA-FE60-EF9E1A089F67}") = "Prototype clickmove", "Assembly-CSharp.csproj", "{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
