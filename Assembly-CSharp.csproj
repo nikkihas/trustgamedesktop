@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{55B81BE0-85FA-6983-0BC7-B8C97BC07DAB}</ProjectGuid>
+    <ProjectGuid>{17920615-21F8-49F7-ACC5-46FF499E9C0F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,15 +64,15 @@
      <Compile Include="Assets\Script\Level03\SpeedUp.cs" />
      <Compile Include="Assets\Script\Level04\goLevel04left.cs" />
      <Compile Include="Assets\Script\Level04\goLevel05.cs" />
-     <Compile Include="Assets\Script\Level08\hDown.cs" />
-     <Compile Include="Assets\Script\Level08\jDown.cs" />
-     <Compile Include="Assets\Script\Level08\kDown.cs" />
-     <Compile Include="Assets\Script\Level08\lDown.cs" />
-     <Compile Include="Assets\Script\Level09\addForce.cs" />
+     <Compile Include="Assets\Script\Level08\buttonDown.cs" />
+     <Compile Include="Assets\Script\Level09\addForce1.cs" />
+     <Compile Include="Assets\Script\Level09\addForce2.cs" />
+     <Compile Include="Assets\Script\Level09\addForce3.cs" />
+     <Compile Include="Assets\Script\Level09\addForce4.cs" />
      <Compile Include="Assets\Script\Level09\cloneBall1.cs" />
      <Compile Include="Assets\Script\Level09\destroyBall1.cs" />
      <Compile Include="Assets\Script\Level09\jump.cs" />
-     <Compile Include="Assets\Script\Level09\playerTeleport1.cs" />
+     <Compile Include="Assets\Script\Level09\playerRestart.cs" />
      <Compile Include="Assets\Script\NextLevel.cs" />
      <Compile Include="Assets\Script\RestartLevel.cs" />
      <Compile Include="Assets\Script\RigidBodyController.cs" />

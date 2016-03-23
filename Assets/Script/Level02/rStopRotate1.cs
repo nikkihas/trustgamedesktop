@@ -8,10 +8,10 @@ public class rStopRotate1 : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.H)) {
+		if (Input.GetButtonDown ("1")) {
 			rotateObject = false;
 		} 
-		if (Input.GetKeyUp (KeyCode.H)) {
+		if (Input.GetButtonUp ("1")) {
 			rotateObject = true;
 		}
 

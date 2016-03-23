@@ -16,12 +16,12 @@ public class rOpenBridge2 : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.J)) {
+		if (Input.GetButtonDown ("2")) {
 			down = true;
-			StartCoroutine (randomCloseBridge ());
 		}
 
-		if (Input.GetKeyUp (KeyCode.J)) {
+
+		if (Input.GetButtonUp ("2")) {
 			down = false;
 		}
 
