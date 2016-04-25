@@ -14,10 +14,11 @@ public class SlowDown : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		ThirdPersonController.movementSpeed = 2.5f;
+		RigidBodyController.movementSpeed = 0.025f;
 	}
 
 	void OnTriggerExit(Collider other) {
-		ThirdPersonController.movementSpeed = 5.0f;
+		RigidBodyController.movementSpeed = 0.1f;
+		Destroy (gameObject);
 	}
 }

@@ -18,6 +18,7 @@ public class rOpenBridge2 : MonoBehaviour
 	{
 		if (Input.GetButtonDown ("2")) {
 			down = true;
+			StartCoroutine (randomCloseBridge ());
 		}
 
 
