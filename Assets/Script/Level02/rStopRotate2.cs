@@ -8,10 +8,10 @@ public class rStopRotate2 : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.J)) {
+		if (Input.GetButtonDown ("2")) {
 			StartCoroutine (randomStopPlatform ());
 		} 
-		if (Input.GetKeyUp (KeyCode.J)) {
+		if (Input.GetButtonUp ("2")) {
 			rotateObject = true;
 		}
 

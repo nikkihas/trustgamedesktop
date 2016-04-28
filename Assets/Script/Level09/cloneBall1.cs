@@ -18,7 +18,7 @@ public class cloneBall1 : MonoBehaviour {
 		if (InstantiationTimer <= 0)
 		{
 			Instantiate(ball1, transform.position, Quaternion.identity);
-			InstantiationTimer = Random.Range(1f, 5f);
+			InstantiationTimer = Random.Range(2f, 5f);
 		}
 	}
 

@@ -14,10 +14,11 @@ public class SpeedUp : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		ThirdPersonController.movementSpeed = 8.0f;
+		RigidBodyController.movementSpeed = 0.15f;
 	}
 
 	void OnTriggerExit(Collider other) {
-		ThirdPersonController.movementSpeed = 5.0f;
+		RigidBodyController.movementSpeed = 0.1f;
+		Destroy (gameObject);
 	}
 }

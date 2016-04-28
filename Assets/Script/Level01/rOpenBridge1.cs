@@ -16,11 +16,12 @@ public class rOpenBridge1 : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.H)) {
+		if (Input.GetButtonDown ("1")) {
 			down = true;
 		}
 
-		if (Input.GetKeyUp (KeyCode.H)) {
+
+		if (Input.GetButtonUp ("1")) {
 			down = false;
 		}
 
