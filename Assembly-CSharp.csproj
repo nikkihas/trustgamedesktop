@@ -58,6 +58,8 @@
      <Compile Include="Assets\Script\Level02\stopRotate1.cs" />
      <Compile Include="Assets\Script\Level02\stopRotate2.cs" />
      <Compile Include="Assets\Script\Level02\stopRotate3.cs" />
+     <Compile Include="Assets\Script\Level03\Move.cs" />
+     <Compile Include="Assets\Script\Level03\Move1.cs" />
      <Compile Include="Assets\Script\Level03\Pause.cs" />
      <Compile Include="Assets\Script\Level03\Pause2.cs" />
      <Compile Include="Assets\Script\Level03\SlowDown.cs" />
