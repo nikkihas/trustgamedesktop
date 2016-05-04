@@ -1,19 +1,20 @@
-﻿using UnityEngine;
+﻿// Created by Rob on 04-05-2016, please do not edit
+
+using UnityEngine;
 using System.Collections;
 
-public class jump : MonoBehaviour {
+public class Jump : MonoBehaviour {
+	public Rigidbody playerCharacter;
 
-	public float jumpSpeed = 5f;//or whatever you want it to be
-	public Rigidbody rb; //and again, whatever you want to call it
-
-	void Start (){
-		rb = GetComponent <Rigidbody>();
+	// Use this for initialization
+	void Start() {
+		playerCharacter = GetComponent<Rigidbody>();
 	}
 
-	void FixedUpdate(){
-		if(Input.GetKey (KeyCode.Space)){
-			rb.AddForce(Vector3.up * jumpSpeed);
+	// Update is called once per frame
+	void Update() {
+		if (Input.GetButtonDown ("Jump")) {
+			playerCharacter.velocity = new Vector3 (0, 8, 0);
 		}
-
 	}
 }

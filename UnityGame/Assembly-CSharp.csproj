@@ -45,9 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DestroyColliderJump.cs" />
      <Compile Include="Assets\Script\FirstPersonController.cs" />
-     <Compile Include="Assets\Script\Jump.cs" />
      <Compile Include="Assets\Script\Level01\OpenBridge1.cs" />
      <Compile Include="Assets\Script\Level01\OpenBridge2.cs" />
      <Compile Include="Assets\Script\Level01\OpenBridgeMouse.cs" />
@@ -63,14 +61,17 @@
      <Compile Include="Assets\Script\Level03\Move.cs" />
      <Compile Include="Assets\Script\Level04\goLevel04left.cs" />
      <Compile Include="Assets\Script\Level04\goLevel05.cs" />
+     <Compile Include="Assets\Script\Level07\DestroyColliderMove.cs" />
+     <Compile Include="Assets\Script\Level07\IndicatorLight.cs" />
      <Compile Include="Assets\Script\Level08\buttonDown.cs" />
+     <Compile Include="Assets\Script\Level09\DestroyColliderJump.cs" />
+     <Compile Include="Assets\Script\Level09\Jump.cs" />
      <Compile Include="Assets\Script\Level09\addForce1.cs" />
      <Compile Include="Assets\Script\Level09\addForce2.cs" />
      <Compile Include="Assets\Script\Level09\addForce3.cs" />
      <Compile Include="Assets\Script\Level09\addForce4.cs" />
      <Compile Include="Assets\Script\Level09\cloneBall1.cs" />
      <Compile Include="Assets\Script\Level09\destroyBall1.cs" />
-     <Compile Include="Assets\Script\Level09\jump.cs" />
      <Compile Include="Assets\Script\Level09\playerRestart.cs" />
      <Compile Include="Assets\Script\Level11\playDontMove.cs" />
      <Compile Include="Assets\Script\NextLevel.cs" />
