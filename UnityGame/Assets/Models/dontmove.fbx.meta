@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: ed7fddfeb0bf64c97b1c136683c1eff9
+timeCreated: 1459108125
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cylinder
+    100004: Cylinder_1
+    100006: Cylinder_10
+    100008: Cylinder_1_2
+    100010: Cylinder_2
+    100012: Cylinder_3
+    100014: Cylinder_4
+    100016: Cylinder_5
+    100018: Cylinder_6
+    100020: Cylinder_7
+    100022: Cylinder_8
+    100024: Cylinder_9
+    100026: //RootNode
+    100028: high
+    100030: Platonic
+    100032: Goal
+    100034: Platform
+    100036: PlatformTop
+    100038: Trigger
+    400000: Cube
+    400002: Cylinder
+    400004: Cylinder_1
+    400006: Cylinder_10
+    400008: Cylinder_1_2
+    400010: Cylinder_2
+    400012: Cylinder_3
+    400014: Cylinder_4
+    400016: Cylinder_5
+    400018: Cylinder_6
+    400020: Cylinder_7
+    400022: Cylinder_8
+    400024: Cylinder_9
+    400026: //RootNode
+    400028: high
+    400030: Platonic
+    400032: Goal
+    400034: Platform
+    400036: PlatformTop
+    400038: Trigger
+    2300000: Cube
+    2300002: Cylinder
+    2300004: Cylinder_1
+    2300006: Cylinder_10
+    2300008: Cylinder_1_2
+    2300010: Cylinder_2
+    2300012: Cylinder_3
+    2300014: Cylinder_4
+    2300016: Cylinder_5
+    2300018: Cylinder_6
+    2300020: Cylinder_7
+    2300022: Cylinder_8
+    2300024: Cylinder_9
+    2300026: Platonic
+    2300028: Goal
+    2300030: Platform
+    2300032: PlatformTop
+    2300034: Trigger
+    3300000: Cube
+    3300002: Cylinder
+    3300004: Cylinder_1
+    3300006: Cylinder_10
+    3300008: Cylinder_1_2
+    3300010: Cylinder_2
+    3300012: Cylinder_3
+    3300014: Cylinder_4
+    3300016: Cylinder_5
+    3300018: Cylinder_6
+    3300020: Cylinder_7
+    3300022: Cylinder_8
+    3300024: Cylinder_9
+    3300026: Platonic
+    3300028: Goal
+    3300030: Platform
+    3300032: PlatformTop
+    3300034: Trigger
+    4300000: Cylinder
+    4300002: Cube
+    4300004: Cylinder_1
+    4300006: Cylinder_10
+    4300008: Cylinder_9
+    4300010: Cylinder_8
+    4300012: Cylinder_7
+    4300014: Cylinder_6
+    4300016: Cylinder_5
+    4300018: Cylinder_4
+    4300020: Cylinder_3
+    4300022: Cylinder_2
+    4300024: Cylinder_1_2
+    4300026: Platonic
+    4300028: Platform
+    4300030: Goal
+    4300032: PlatformTop
+    4300034: Trigger
+    6400000: Cube
+    6400002: Cylinder
+    6400004: Cylinder_1
+    6400006: Cylinder_10
+    6400008: Cylinder_1_2
+    6400010: Cylinder_2
+    6400012: Cylinder_3
+    6400014: Cylinder_4
+    6400016: Cylinder_5
+    6400018: Cylinder_6
+    6400020: Cylinder_7
+    6400022: Cylinder_8
+    6400024: Cylinder_9
+    6400026: Platonic
+    6400028: Goal
+    6400030: Platform
+    6400032: PlatformTop
+    6400034: Trigger
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

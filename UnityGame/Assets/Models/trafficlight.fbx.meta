@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 54cb3bd0fd8454080bdbb4a3bb912e3c
+timeCreated: 1455472567
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube_3_3
+    100004: Cylinder
+    100006: Cylinder_1
+    100008: Cylinder_2
+    100010: Platonic
+    100012: start
+    100014: start_1
+    100016: //RootNode
+    100018: Tube
+    100020: Tube_1
+    100022: end
+    100024: groen
+    100026: middle
+    100028: rood
+    100030: stoplicht
+    100032: Cube_1
+    100034: Cube_2
+    100036: Left_Path
+    100038: middle_1
+    100040: Right_Path
+    100042: Cube_1_2
+    100044: Cube_1_3
+    100046: Cube_1_4
+    100048: Goal
+    100050: LeftPath
+    100052: RightPath
+    400000: Cube
+    400002: Cube_3_3
+    400004: Cylinder
+    400006: Cylinder_1
+    400008: Cylinder_2
+    400010: Platonic
+    400012: start
+    400014: start_1
+    400016: //RootNode
+    400018: Tube
+    400020: Tube_1
+    400022: end
+    400024: groen
+    400026: middle
+    400028: rood
+    400030: stoplicht
+    400032: Cube_1
+    400034: Cube_2
+    400036: Left_Path
+    400038: middle_1
+    400040: Right_Path
+    400042: Cube_1_2
+    400044: Cube_1_3
+    400046: Cube_1_4
+    400048: Goal
+    400050: LeftPath
+    400052: RightPath
+    2300000: Cube
+    2300002: Cube_3_3
+    2300004: Cylinder
+    2300006: Cylinder_1
+    2300008: Cylinder_2
+    2300010: Platonic
+    2300012: start
+    2300014: start_1
+    2300016: Tube
+    2300018: Tube_1
+    2300020: end
+    2300022: groen
+    2300024: middle
+    2300026: rood
+    2300028: Cube_1
+    2300030: Cube_2
+    2300032: middle_1
+    2300034: Cube_1_2
+    2300036: Cube_1_3
+    2300038: Cube_1_4
+    2300040: Goal
+    2300042: LeftPath
+    2300044: RightPath
+    3300000: Cube
+    3300002: Cube_3_3
+    3300004: Cylinder
+    3300006: Cylinder_1
+    3300008: Cylinder_2
+    3300010: Platonic
+    3300012: start
+    3300014: start_1
+    3300016: Tube
+    3300018: Tube_1
+    3300020: end
+    3300022: groen
+    3300024: middle
+    3300026: rood
+    3300028: Cube_1
+    3300030: Cube_2
+    3300032: middle_1
+    3300034: Cube_1_2
+    3300036: Cube_1_3
+    3300038: Cube_1_4
+    3300040: Goal
+    3300042: LeftPath
+    3300044: RightPath
+    4300000: Cylinder_2
+    4300002: Cylinder_1
+    4300004: Cube
+    4300006: Cylinder
+    4300008: start_1
+    4300010: Platonic
+    4300012: start
+    4300014: Cube_3_3
+    4300016: Tube_1
+    4300018: Tube
+    4300020: middle
+    4300022: end
+    4300024: rood
+    4300026: groen
+    4300028: Cube_1
+    4300030: middle_1
+    4300032: Cube_2
+    4300034: Cube_1_2
+    4300036: Cube_1_3
+    4300038: Cube_1_4
+    4300040: RightPath
+    4300042: LeftPath
+    4300044: Goal
+    6400000: Cube
+    6400002: Cube_3_3
+    6400004: Cylinder
+    6400006: Cylinder_1
+    6400008: Cylinder_2
+    6400010: Platonic
+    6400012: start
+    6400014: start_1
+    6400016: Tube
+    6400018: Tube_1
+    6400020: end
+    6400022: groen
+    6400024: middle
+    6400026: rood
+    6400028: Cube_1
+    6400030: Cube_2
+    6400032: middle_1
+    6400034: Cube_1_2
+    6400036: Cube_1_3
+    6400038: Cube_1_4
+    6400040: Goal
+    6400042: LeftPath
+    6400044: RightPath
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
