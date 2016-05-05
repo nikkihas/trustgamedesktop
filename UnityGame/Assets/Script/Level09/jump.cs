@@ -13,7 +13,7 @@ public class Jump : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetButtonDown ("2")) {
 			playerCharacter.velocity = new Vector3 (0, 8, 0);
 		}
 	}

@@ -3,8 +3,8 @@ using System.Collections;
 
 public class RigidBodyController : MonoBehaviour {
 
-	public static float movementSpeed = 0.1f;
-	float turnSensitivity = 1.5f;
+	public static float movementSpeed = 0.075f;
+	float turnSensitivity = 1f;
 	public Rigidbody rig;
 
 	// Use this for initialization

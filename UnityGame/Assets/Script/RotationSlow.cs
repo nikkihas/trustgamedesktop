@@ -10,6 +10,6 @@ public class RotationSlow : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (new Vector3(0,Time.deltaTime*25));
+		transform.Rotate (new Vector3(0,Time.deltaTime*25,0));
 	}
 }

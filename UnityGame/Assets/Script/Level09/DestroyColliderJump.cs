@@ -15,7 +15,7 @@ public class DestroyColliderJump : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// Destroy the mesh collider when the player jumps more than 3 times
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetButtonDown ("2")) {
 			timesJumped++;
 		}
 		if (timesJumped > 3) {
