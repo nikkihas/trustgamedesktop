@@ -8,6 +8,6 @@
  function OnTriggerExit(other:Collider){
      if(other.gameObject.tag == "move"){
              transform.parent = null;
-             
+             Debug.Log ("NoChild");
          }
      }    

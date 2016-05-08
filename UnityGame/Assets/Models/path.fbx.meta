@@ -54,6 +54,15 @@ ModelImporter:
     4300012: Cube_1_2
     4300014: Cube
     4300016: Platonic
+    6400000: Cube
+    6400002: Cube_1
+    6400004: Cube_1_2
+    6400006: Cube_2
+    6400008: Cube_3
+    6400010: Cube_4
+    6400012: Cube_5
+    6400014: Cube_6
+    6400016: Platonic
   materials:
     importMaterials: 1
     materialName: 0
@@ -80,7 +89,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

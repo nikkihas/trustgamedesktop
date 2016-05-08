@@ -1,6 +1,6 @@
 ﻿import UnityEngine.SceneManagement;
 
-private var startTime;
+private var startTime : int;
 private var restSeconds : int;
 private var roundedRestSeconds : int;
 private var displaySeconds : int;

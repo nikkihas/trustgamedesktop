@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\DontDestroy.cs" />
      <Compile Include="Assets\Script\FirstPersonController.cs" />
+     <Compile Include="Assets\Script\GAME START\StartGame.cs" />
      <Compile Include="Assets\Script\Level02\OpenBridge1.cs" />
      <Compile Include="Assets\Script\Level02\OpenBridge2.cs" />
      <Compile Include="Assets\Script\Level03\StopRotate1.cs" />
@@ -65,6 +66,7 @@
      <Compile Include="Assets\Script\Rotation.cs" />
      <Compile Include="Assets\Script\RotationNegative.cs" />
      <Compile Include="Assets\Script\RotationSlow.cs" />
+     <Compile Include="Assets\Script\StartSoundAfter.cs" />
      <Compile Include="Assets\Script\ThirdPersonController.cs" />
      <Compile Include="Assets\Script\TimeTotal.cs" />
      <Compile Include="Assets\Script\water.cs" />

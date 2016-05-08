@@ -35,7 +35,7 @@ public class OpenBridge2 : MonoBehaviour
 
 	IEnumerator randomCloseBridge ()
 	{
-		var waitTime = Random.Range(0.75f, 1.5f);
+		var waitTime = Random.Range(0.75f, 1.25f);
 		yield return new WaitForSeconds (waitTime);
 		down = false;
 	}
