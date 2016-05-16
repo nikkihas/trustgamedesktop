@@ -41,6 +41,31 @@ ModelImporter:
     100066: walll_3_3
     100068: walll_4
     100070: walll_5
+    100072: Boole_2_2
+    100074: Cap_1
+    100076: Cap_2
+    100078: Cube_1_4
+    100080: Cube_2_5
+    100082: Cube_3_2
+    100084: Cube_4
+    100086: Cube_4_2
+    100088: Cube_5
+    100090: Cube_5_2
+    100092: Cube_6
+    100094: door_3_3
+    100096: door_3_4
+    100098: door_3_5
+    100100: Extrude_NURBS
+    100102: GiveUp
+    100104: Boole_1_2
+    100106: door_3_6
+    100108: door_3_7
+    100110: DoorMoving_1
+    100112: walll_5_2
+    100114: walll_6
+    100116: Cube_6_2
+    100118: Cube_7
+    100120: Cube_8
     400000: Boole
     400002: Boole_1
     400004: Boole_2
@@ -77,6 +102,31 @@ ModelImporter:
     400066: walll_3_3
     400068: walll_4
     400070: walll_5
+    400072: Boole_2_2
+    400074: Cap_1
+    400076: Cap_2
+    400078: Cube_1_4
+    400080: Cube_2_5
+    400082: Cube_3_2
+    400084: Cube_4
+    400086: Cube_4_2
+    400088: Cube_5
+    400090: Cube_5_2
+    400092: Cube_6
+    400094: door_3_3
+    400096: door_3_4
+    400098: door_3_5
+    400100: Extrude_NURBS
+    400102: GiveUp
+    400104: Boole_1_2
+    400106: door_3_6
+    400108: door_3_7
+    400110: DoorMoving_1
+    400112: walll_5_2
+    400114: walll_6
+    400116: Cube_6_2
+    400118: Cube_7
+    400120: Cube_8
     2300000: Cube
     2300002: Cube_1
     2300004: Cube_1_2
@@ -99,6 +149,27 @@ ModelImporter:
     2300038: walll_3
     2300040: walll_3_2
     2300042: walll_5
+    2300044: Cap_1
+    2300046: Cap_2
+    2300048: Cube_1_4
+    2300050: Cube_2_5
+    2300052: Cube_3_2
+    2300054: Cube_4
+    2300056: Cube_4_2
+    2300058: Cube_5
+    2300060: Cube_5_2
+    2300062: Cube_6
+    2300064: door_3_2
+    2300066: door_3_4
+    2300068: Extrude_NURBS
+    2300070: door_3_3
+    2300072: door_3_6
+    2300074: DoorMoving_1
+    2300076: walll_5_2
+    2300078: Cube_6_2
+    2300080: Cube_7
+    2300082: Cube_8
+    2300084: door_3_5
     3300000: Cube
     3300002: Cube_1
     3300004: Cube_1_2
@@ -121,6 +192,27 @@ ModelImporter:
     3300038: walll_3
     3300040: walll_3_2
     3300042: walll_5
+    3300044: Cap_1
+    3300046: Cap_2
+    3300048: Cube_1_4
+    3300050: Cube_2_5
+    3300052: Cube_3_2
+    3300054: Cube_4
+    3300056: Cube_4_2
+    3300058: Cube_5
+    3300060: Cube_5_2
+    3300062: Cube_6
+    3300064: door_3_2
+    3300066: door_3_4
+    3300068: Extrude_NURBS
+    3300070: door_3_3
+    3300072: door_3_6
+    3300074: DoorMoving_1
+    3300076: walll_5_2
+    3300078: Cube_6_2
+    3300080: Cube_7
+    3300082: Cube_8
+    3300084: door_3_5
     4300000: Cube_1
     4300002: Cube
     4300004: Cube_2
@@ -143,6 +235,27 @@ ModelImporter:
     4300038: walll_5
     4300040: walll_2_2
     4300042: walll_1
+    4300044: Extrude_NURBS
+    4300046: Cap_1
+    4300048: Cap_2
+    4300050: door_3_2
+    4300052: Cube_5
+    4300054: Cube_4
+    4300056: Cube_3_2
+    4300058: Cube_4_2
+    4300060: Cube_5_2
+    4300062: Cube_1_4
+    4300064: Cube_6
+    4300066: Cube_2_5
+    4300068: door_3_4
+    4300070: DoorMoving_1
+    4300072: door_3_3
+    4300074: door_3_6
+    4300076: walll_5_2
+    4300078: Cube_8
+    4300080: Cube_7
+    4300082: Cube_6_2
+    4300084: door_3_5
     6400000: Cube
     6400002: Cube_1
     6400004: Cube_1_2
@@ -165,6 +278,27 @@ ModelImporter:
     6400038: walll_3
     6400040: walll_3_2
     6400042: walll_5
+    6400044: Cap_1
+    6400046: Cap_2
+    6400048: Cube_1_4
+    6400050: Cube_2_5
+    6400052: Cube_3_2
+    6400054: Cube_4
+    6400056: Cube_4_2
+    6400058: Cube_5
+    6400060: Cube_5_2
+    6400062: Cube_6
+    6400064: door_3_2
+    6400066: door_3_4
+    6400068: Extrude_NURBS
+    6400070: door_3_3
+    6400072: door_3_6
+    6400074: DoorMoving_1
+    6400076: walll_5_2
+    6400078: Cube_6_2
+    6400080: Cube_7
+    6400082: Cube_8
+    6400084: door_3_5
   materials:
     importMaterials: 1
     materialName: 0
