@@ -12,6 +12,10 @@ ModelImporter:
     100008: StaticPlatform2
     100010: StaticPlatforms
     100012: //RootNode
+    100014: End
+    100016: Platform1
+    100018: Platform2
+    100020: Start
     400000: MovingPlatform1
     400002: MovingPlatform2
     400004: MovingPlatforms
@@ -19,22 +23,42 @@ ModelImporter:
     400008: StaticPlatform2
     400010: StaticPlatforms
     400012: //RootNode
+    400014: End
+    400016: Platform1
+    400018: Platform2
+    400020: Start
     2300000: MovingPlatform1
     2300002: MovingPlatform2
     2300004: StaticPlatform1
     2300006: StaticPlatform2
+    2300008: End
+    2300010: Platform1
+    2300012: Platform2
+    2300014: Start
     3300000: MovingPlatform1
     3300002: MovingPlatform2
     3300004: StaticPlatform1
     3300006: StaticPlatform2
+    3300008: End
+    3300010: Platform1
+    3300012: Platform2
+    3300014: Start
     4300000: StaticPlatform2
     4300002: StaticPlatform1
     4300004: MovingPlatform2
     4300006: MovingPlatform1
+    4300008: End
+    4300010: Start
+    4300012: Platform1
+    4300014: Platform2
     6400000: MovingPlatform1
     6400002: MovingPlatform2
     6400004: StaticPlatform1
     6400006: StaticPlatform2
+    6400008: End
+    6400010: Platform1
+    6400012: Platform2
+    6400014: Start
   materials:
     importMaterials: 1
     materialName: 0
