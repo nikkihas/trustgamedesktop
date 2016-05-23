@@ -47,7 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Script\DontDestroy.cs" />
      <Compile Include="Assets\Script\FirstPersonController.cs" />
-     <Compile Include="Assets\Script\GAME START\StartGame.cs" />
+     <Compile Include="Assets\Script\Level00\NextLevelAfterTime.cs" />
+     <Compile Include="Assets\Script\Level00\StartGame.cs" />
      <Compile Include="Assets\Script\Level02\OpenBridge1.cs" />
      <Compile Include="Assets\Script\Level02\OpenBridge2.cs" />
      <Compile Include="Assets\Script\Level03\StopRotate1.cs" />
