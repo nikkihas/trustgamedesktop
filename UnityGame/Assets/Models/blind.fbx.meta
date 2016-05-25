@@ -78,7 +78,7 @@ ModelImporter:
     6400018: Cap_2
     6400020: Sweep_NURBS
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:

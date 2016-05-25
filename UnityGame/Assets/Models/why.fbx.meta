@@ -116,6 +116,8 @@ ModelImporter:
     100216: NoP1_32
     100218: P1
     100220: P2
+    100222: NoP1_1
+    100224: Platform
     400000: Answer
     400002: Answer_1
     400004: Answer_2
@@ -227,6 +229,8 @@ ModelImporter:
     400216: NoP1_32
     400218: P1
     400220: P2
+    400222: NoP1_1
+    400224: Platform
     2300000: Cap_1
     2300002: Cap_1_2
     2300004: Cap_1_3
@@ -299,6 +303,8 @@ ModelImporter:
     2300138: NoP1_27
     2300140: NoP1_29
     2300142: NoP1_31
+    2300144: NoP1_1
+    2300146: Platform
     3300000: Cap_1
     3300002: Cap_1_2
     3300004: Cap_1_3
@@ -371,6 +377,8 @@ ModelImporter:
     3300138: NoP1_27
     3300140: NoP1_29
     3300142: NoP1_31
+    3300144: NoP1_1
+    3300146: Platform
     4300000: Cylinder_3
     4300002: Cylinder_2
     4300004: NoP1
@@ -443,6 +451,8 @@ ModelImporter:
     4300138: G_NoP1_16
     4300140: Cap_1_17
     4300142: Cap_2_17
+    4300144: NoP1_1
+    4300146: Platform
     6400000: Cap_1
     6400002: Cap_1_2
     6400004: Cap_1_3
@@ -515,6 +525,8 @@ ModelImporter:
     6400138: NoP1_27
     6400140: NoP1_29
     6400142: NoP1_31
+    6400144: NoP1_1
+    6400146: Platform
   materials:
     importMaterials: 1
     materialName: 0
