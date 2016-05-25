@@ -65,7 +65,6 @@
      <Compile Include="Assets\Script\RestartLevel.cs" />
      <Compile Include="Assets\Script\RigidBodyController.cs" />
      <Compile Include="Assets\Script\Rotation.cs" />
-     <Compile Include="Assets\Script\RotationNegative.cs" />
      <Compile Include="Assets\Script\RotationSlow.cs" />
      <Compile Include="Assets\Script\StartSoundAfter.cs" />
      <Compile Include="Assets\Script\ThirdPersonController.cs" />
