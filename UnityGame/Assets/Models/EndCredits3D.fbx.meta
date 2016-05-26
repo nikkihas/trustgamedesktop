@@ -9,10 +9,12 @@ ModelImporter:
     100002: Cap_2
     100004: //RootNode
     100006: EndCredits3D_1
+    100008: EndCredits3D
     400000: Cap_1
     400002: Cap_2
     400004: //RootNode
     400006: EndCredits3D_1
+    400008: EndCredits3D
     2300000: Cap_1
     2300002: Cap_2
     2300004: //RootNode
@@ -22,6 +24,7 @@ ModelImporter:
     4300000: Extrude_NURBS
     4300002: Cap_1
     4300004: Cap_2
+    4300006: Extrude_NURBS_1
   materials:
     importMaterials: 1
     materialName: 0
