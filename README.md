@@ -7,4 +7,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue mi vi
 
 ## Contributors
 - Nikki Hes, concept and design
-- Rob van der Burg, code
+- Rob van der Burg, code and housekeeping

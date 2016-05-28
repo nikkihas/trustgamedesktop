@@ -1,12 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Level00/StartGame.cs">
-    <Files>
-      <File FileName="Assets/Script/NextLevel.cs" Line="9" Column="3" />
-      <File FileName="Assets/Script/Level00/NextLevelAfterTime.cs" Line="8" Column="37" />
-      <File FileName="Assets/Script/Level00/StartGame.cs" Line="12" Column="34" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

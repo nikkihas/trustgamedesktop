@@ -3,6 +3,8 @@
 —
 
 ## General
+- Make character move faster
+- Decrease gravity
 
 - Play sound after x times resetlevel. 
 - Mountains Breathing
@@ -14,19 +16,21 @@
 -
 
 ## Level 02
-- Platforms up and down
--
--
+- Clean up hierarchy (done)
+- Remove old scripts (done)
+- Modify scripts to make move platforms up and down (done)
+- Optimise scripts (done)
 
 ## Level 05
 - Rotating Object make child
 - Moving object make child
--
 
 ## Level 06
-- Change the intervals for Player 1 and Player 2 halfway
--
--
+- Clean up hierarchy (done)
+- Remove old scripts (done)
+- Add time for the player to react to the red light (done)
+- Add a child indicator light which is red when the parent is red (done)
+- Make IndicatorLight01 only visible to player 1 and Indicatorlight02 only visible to player 2
 
 ## Level 07
 - Fix double jump

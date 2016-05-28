@@ -45,20 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\DontDestroy.cs" />
      <Compile Include="Assets\Script\FirstPersonController.cs" />
      <Compile Include="Assets\Script\Level00\NextLevelAfterTime.cs" />
      <Compile Include="Assets\Script\Level00\StartGame.cs" />
-     <Compile Include="Assets\Script\Level02\OpenBridge1.cs" />
-     <Compile Include="Assets\Script\Level02\OpenBridge2.cs" />
+     <Compile Include="Assets\Script\Level02\LowerPlatform1.cs" />
+     <Compile Include="Assets\Script\Level02\LowerPlatform2.cs" />
      <Compile Include="Assets\Script\Level03\StopRotate1.cs" />
      <Compile Include="Assets\Script\Level03\StopRotate2.cs" />
      <Compile Include="Assets\Script\Level03\StopRotate3.cs" />
      <Compile Include="Assets\Script\Level05\Move.cs" />
-     <Compile Include="Assets\Script\Level07\DestroyColliderMove.cs" />
-     <Compile Include="Assets\Script\Level07\IndicatorLight.cs" />
+     <Compile Include="Assets\Script\Level06\DestroyColliderMove.cs" />
+     <Compile Include="Assets\Script\Level06\IndicatorLight01.cs" />
+     <Compile Include="Assets\Script\Level06\IndicatorLight02.cs" />
      <Compile Include="Assets\Script\Level09\DestroyColliderJump.cs" />
-     <Compile Include="Assets\Script\Level09\Jump.cs" />
+     <Compile Include="Assets\Script\Level09\jump.cs" />
      <Compile Include="Assets\Script\Level10\playDontMove.cs" />
      <Compile Include="Assets\Script\Level11\buttonDown.cs" />
      <Compile Include="Assets\Script\NextLevel.cs" />
@@ -69,6 +69,7 @@
      <Compile Include="Assets\Script\StartSoundAfter.cs" />
      <Compile Include="Assets\Script\ThirdPersonController.cs" />
      <Compile Include="Assets\Script\TimeTotal.cs" />
+     <Compile Include="Assets\Script\dontDestroy.cs" />
      <Compile Include="Assets\Script\water.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
