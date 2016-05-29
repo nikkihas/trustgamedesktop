@@ -11,7 +11,7 @@ public class LowerPlatform2 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		startPosition = new Vector3 (0, -4, -2);
+		startPosition = new Vector3 (0, 4, -2);
 		endPosition = new Vector3 (0, 0, -2);
 	}
 
@@ -39,7 +39,7 @@ public class LowerPlatform2 : MonoBehaviour {
 
 	// Generate a random interval
 	IEnumerator randomlyRisePlatform () {
-		var waitTime = Random.Range(1.5f, 2f);
+		var waitTime = Random.Range(1f, 1.5f);
 		yield return new WaitForSeconds (waitTime);
 		down = false;
 	}

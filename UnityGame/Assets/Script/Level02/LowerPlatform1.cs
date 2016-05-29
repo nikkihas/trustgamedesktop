@@ -11,8 +11,8 @@ public class LowerPlatform1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		startPosition = new Vector3 (0, 4, 2);
-		endPosition = new Vector3 (0, -1, 2);
+		startPosition = new Vector3 (0, -2, 2);
+		endPosition = new Vector3 (0, 0, 2);
 	}
 
 	// Update is called once per frame
