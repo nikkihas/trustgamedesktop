@@ -13,6 +13,7 @@
 - Play sound after x times resetlevel. Nu zijn er twee manieren, 1. Level Restart (geluid restart hier ook wat ik niet wil), 2. Teleport naar het begin (Hierbij reset de tijd per level niet). Wat ik zou willen is het level resetten incl. de tijd per level zonder dat de geluiden opnieuw beginnen maar doorgaan.
 - Mountains Breathing. Hexagons op de achtergrond bewegen onafhankelijk van elkaar naar boven en beneden, als een levend organisme
 - Fade out when dying
+- Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
 
 ## Level 00 (Intro)
 - Start Level01 after x seconds
