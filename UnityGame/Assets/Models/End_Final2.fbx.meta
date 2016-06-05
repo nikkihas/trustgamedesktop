@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 80dc97d8846eb4974a92e2881696f725
+timeCreated: 1465057751
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cap_1
+    100002: Cap_2
+    100004: //RootNode
+    100006: Extrude_NURBS
+    100008: GiveUp
+    100010: Left
+    100012: Middle
+    100014: MovingPlatforms
+    100016: Platform1
+    100018: Right
+    100020: Start
+    100022: Start_2
+    100024: Start_3
+    100026: Start_4
+    100028: StaticPlatforms
+    100030: Start_1
+    100032: Start_2_2
+    100034: Start_3_2
+    100036: Start_2_3
+    400000: Cap_1
+    400002: Cap_2
+    400004: //RootNode
+    400006: Extrude_NURBS
+    400008: GiveUp
+    400010: Left
+    400012: Middle
+    400014: MovingPlatforms
+    400016: Platform1
+    400018: Right
+    400020: Start
+    400022: Start_2
+    400024: Start_3
+    400026: Start_4
+    400028: StaticPlatforms
+    400030: Start_1
+    400032: Start_2_2
+    400034: Start_3_2
+    400036: Start_2_3
+    2300000: Cap_1
+    2300002: Cap_2
+    2300004: Extrude_NURBS
+    2300006: Left
+    2300008: Middle
+    2300010: Platform1
+    2300012: Right
+    2300014: Start
+    2300016: Start_2
+    2300018: Start_3
+    2300020: Start_4
+    2300022: Start_1
+    2300024: Start_2_2
+    2300026: Start_3_2
+    2300028: Start_2_3
+    3300000: Cap_1
+    3300002: Cap_2
+    3300004: Extrude_NURBS
+    3300006: Left
+    3300008: Middle
+    3300010: Platform1
+    3300012: Right
+    3300014: Start
+    3300016: Start_2
+    3300018: Start_3
+    3300020: Start_4
+    3300022: Start_1
+    3300024: Start_2_2
+    3300026: Start_3_2
+    3300028: Start_2_3
+    4300000: Start
+    4300002: Extrude_NURBS
+    4300004: Cap_1
+    4300006: Cap_2
+    4300008: Start_2
+    4300010: Start_3
+    4300012: Platform1
+    4300014: Start_4
+    4300016: Left
+    4300018: Middle
+    4300020: Right
+    4300022: Start_1
+    4300024: Start_2_2
+    4300026: Start_3_2
+    4300028: Start_2_3
+    6400000: Cap_1
+    6400002: Cap_2
+    6400004: Extrude_NURBS
+    6400006: Left
+    6400008: Middle
+    6400010: Platform1
+    6400012: Right
+    6400014: Start
+    6400016: Start_2
+    6400018: Start_3
+    6400020: Start_4
+    6400022: Start_1
+    6400024: Start_2_2
+    6400026: Start_3_2
+    6400028: Start_2_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

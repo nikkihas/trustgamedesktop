@@ -11,12 +11,14 @@
 	- Project Settings -> Gravity
 
 - Play sound after x times resetlevel. Nu zijn er twee manieren, 1. Level Restart (geluid restart hier ook wat ik niet wil), 2. Teleport naar het begin (Hierbij reset de tijd per level niet). Wat ik zou willen is het level resetten incl. de tijd per level zonder dat de geluiden opnieuw beginnen maar doorgaan.
+	- Play sound after x times death + time (level07
 - Mountains Breathing. Hexagons op de achtergrond bewegen onafhankelijk van elkaar naar boven en beneden, als een levend organisme
 - Fade out when dying
 - Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
+- Play only this sound and mute the rest (level02, "was that really so difficult" after completing the level, at that point you don't want to hear instructions anymore)
 
 ## Level 00 (Intro)
-- Start Level01 after x seconds
+- Start Level01 after x seconds (done dealio!)
 -
 -
 
@@ -25,6 +27,9 @@
 - Remove old scripts (done)
 - Modify scripts to make move platforms up and down (done)
 - Optimise scripts (done)
+
+## Level 04
+- Play sound that is not cut-off because of going to the next level
 
 ## Level 05
 - Rotating Object make child

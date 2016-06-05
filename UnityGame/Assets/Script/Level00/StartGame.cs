@@ -10,7 +10,6 @@ public class StartGame : MonoBehaviour {
 
 	void Update() {
 		if (Input.GetButtonDown ("start")) {
-			Debug.Log ("X is down");
 			Time.timeScale =1;
 		}
 //		else

@@ -118,6 +118,54 @@ ModelImporter:
     100220: P2
     100222: NoP1_1
     100224: Platform
+    100226: Authentic
+    100228: Authentic_2
+    100230: Authentic_3
+    100232: Authentic_4
+    100234: Creative
+    100236: Creative_2
+    100238: Creative_3
+    100240: Creative_4
+    100242: Dishonest
+    100244: Dishonest_2
+    100246: Dishonest_3
+    100248: Dishonest_4
+    100250: Emphatic
+    100252: Emphatic_2
+    100254: Emphatic_3
+    100256: Emphatic_4
+    100258: Goal
+    100260: Goal_10
+    100262: Goal_11
+    100264: Goal_12
+    100266: Goal_13
+    100268: Goal_14
+    100270: Goal_15
+    100272: Goal_16
+    100274: Goal_2
+    100276: Goal_3
+    100278: Goal_4
+    100280: Goal_5
+    100282: Goal_6
+    100284: Goal_7
+    100286: Goal_8
+    100288: Goal_9
+    100290: Reliable
+    100292: Reliable_2
+    100294: Reliable_3
+    100296: Reliable_4
+    100298: Superficial
+    100300: Superficial_2
+    100302: Superficial_3
+    100304: Superficial_4
+    100306: Unreliable
+    100308: Unreliable_2
+    100310: Unreliable_3
+    100312: Unreliable_4
+    100314: Untalented
+    100316: Untalented_2
+    100318: Untalented_3
+    100320: Untalented_4
     400000: Answer
     400002: Answer_1
     400004: Answer_2
@@ -231,6 +279,54 @@ ModelImporter:
     400220: P2
     400222: NoP1_1
     400224: Platform
+    400226: Authentic
+    400228: Authentic_2
+    400230: Authentic_3
+    400232: Authentic_4
+    400234: Creative
+    400236: Creative_2
+    400238: Creative_3
+    400240: Creative_4
+    400242: Dishonest
+    400244: Dishonest_2
+    400246: Dishonest_3
+    400248: Dishonest_4
+    400250: Emphatic
+    400252: Emphatic_2
+    400254: Emphatic_3
+    400256: Emphatic_4
+    400258: Goal
+    400260: Goal_10
+    400262: Goal_11
+    400264: Goal_12
+    400266: Goal_13
+    400268: Goal_14
+    400270: Goal_15
+    400272: Goal_16
+    400274: Goal_2
+    400276: Goal_3
+    400278: Goal_4
+    400280: Goal_5
+    400282: Goal_6
+    400284: Goal_7
+    400286: Goal_8
+    400288: Goal_9
+    400290: Reliable
+    400292: Reliable_2
+    400294: Reliable_3
+    400296: Reliable_4
+    400298: Superficial
+    400300: Superficial_2
+    400302: Superficial_3
+    400304: Superficial_4
+    400306: Unreliable
+    400308: Unreliable_2
+    400310: Unreliable_3
+    400312: Unreliable_4
+    400314: Untalented
+    400316: Untalented_2
+    400318: Untalented_3
+    400320: Untalented_4
     2300000: Cap_1
     2300002: Cap_1_2
     2300004: Cap_1_3
@@ -305,6 +401,38 @@ ModelImporter:
     2300142: NoP1_31
     2300144: NoP1_1
     2300146: Platform
+    2300148: Authentic_2
+    2300150: Authentic_4
+    2300152: Creative_2
+    2300154: Creative_4
+    2300156: Dishonest_2
+    2300158: Dishonest_4
+    2300160: Emphatic_2
+    2300162: Emphatic_4
+    2300164: Goal
+    2300166: Goal_10
+    2300168: Goal_11
+    2300170: Goal_12
+    2300172: Goal_13
+    2300174: Goal_14
+    2300176: Goal_15
+    2300178: Goal_16
+    2300180: Goal_2
+    2300182: Goal_3
+    2300184: Goal_4
+    2300186: Goal_5
+    2300188: Goal_6
+    2300190: Goal_7
+    2300192: Goal_8
+    2300194: Goal_9
+    2300196: Reliable_2
+    2300198: Reliable_4
+    2300200: Superficial_2
+    2300202: Superficial_4
+    2300204: Unreliable_2
+    2300206: Unreliable_4
+    2300208: Untalented_2
+    2300210: Untalented_4
     3300000: Cap_1
     3300002: Cap_1_2
     3300004: Cap_1_3
@@ -379,6 +507,38 @@ ModelImporter:
     3300142: NoP1_31
     3300144: NoP1_1
     3300146: Platform
+    3300148: Authentic_2
+    3300150: Authentic_4
+    3300152: Creative_2
+    3300154: Creative_4
+    3300156: Dishonest_2
+    3300158: Dishonest_4
+    3300160: Emphatic_2
+    3300162: Emphatic_4
+    3300164: Goal
+    3300166: Goal_10
+    3300168: Goal_11
+    3300170: Goal_12
+    3300172: Goal_13
+    3300174: Goal_14
+    3300176: Goal_15
+    3300178: Goal_16
+    3300180: Goal_2
+    3300182: Goal_3
+    3300184: Goal_4
+    3300186: Goal_5
+    3300188: Goal_6
+    3300190: Goal_7
+    3300192: Goal_8
+    3300194: Goal_9
+    3300196: Reliable_2
+    3300198: Reliable_4
+    3300200: Superficial_2
+    3300202: Superficial_4
+    3300204: Unreliable_2
+    3300206: Unreliable_4
+    3300208: Untalented_2
+    3300210: Untalented_4
     4300000: Cylinder_3
     4300002: Cylinder_2
     4300004: NoP1
@@ -453,6 +613,38 @@ ModelImporter:
     4300142: Cap_2_17
     4300144: NoP1_1
     4300146: Platform
+    4300148: Emphatic_2
+    4300150: Goal
+    4300152: Untalented_2
+    4300154: Goal_2
+    4300156: Creative_2
+    4300158: Goal_3
+    4300160: Dishonest_2
+    4300162: Goal_4
+    4300164: Reliable_2
+    4300166: Goal_5
+    4300168: Superficial_2
+    4300170: Goal_6
+    4300172: Authentic_2
+    4300174: Goal_7
+    4300176: Unreliable_2
+    4300178: Goal_8
+    4300180: Unreliable_4
+    4300182: Goal_9
+    4300184: Emphatic_4
+    4300186: Goal_10
+    4300188: Untalented_4
+    4300190: Goal_11
+    4300192: Creative_4
+    4300194: Goal_12
+    4300196: Dishonest_4
+    4300198: Goal_13
+    4300200: Reliable_4
+    4300202: Goal_14
+    4300204: Superficial_4
+    4300206: Goal_15
+    4300208: Authentic_4
+    4300210: Goal_16
     6400000: Cap_1
     6400002: Cap_1_2
     6400004: Cap_1_3
@@ -527,6 +719,38 @@ ModelImporter:
     6400142: NoP1_31
     6400144: NoP1_1
     6400146: Platform
+    6400148: Authentic_2
+    6400150: Authentic_4
+    6400152: Creative_2
+    6400154: Creative_4
+    6400156: Dishonest_2
+    6400158: Dishonest_4
+    6400160: Emphatic_2
+    6400162: Emphatic_4
+    6400164: Goal
+    6400166: Goal_10
+    6400168: Goal_11
+    6400170: Goal_12
+    6400172: Goal_13
+    6400174: Goal_14
+    6400176: Goal_15
+    6400178: Goal_16
+    6400180: Goal_2
+    6400182: Goal_3
+    6400184: Goal_4
+    6400186: Goal_5
+    6400188: Goal_6
+    6400190: Goal_7
+    6400192: Goal_8
+    6400194: Goal_9
+    6400196: Reliable_2
+    6400198: Reliable_4
+    6400200: Superficial_2
+    6400202: Superficial_4
+    6400204: Unreliable_2
+    6400206: Unreliable_4
+    6400208: Untalented_2
+    6400210: Untalented_4
   materials:
     importMaterials: 1
     materialName: 0

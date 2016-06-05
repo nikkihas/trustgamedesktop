@@ -11,10 +11,5 @@ public class StartSoundAfter : MonoBehaviour {
 			time -= Time.deltaTime;
 			GetComponent<AudioSource>().Play();
 		}
-		else {
-			Debug.Log("Timer over play audio!");
-		}
-
-
 	}
 }

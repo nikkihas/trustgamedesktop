@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class NextLevelAfterTime : MonoBehaviour {
 
 	IEnumerator Start() {
-		yield return new WaitForSeconds(46f);
-		SceneManager.LoadScene("Level01");
+		yield return new WaitForSeconds(50f);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 	}
 }
