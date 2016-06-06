@@ -1,12 +1,12 @@
-﻿// Modified by Rob on 27-05-2016, please do not edit
+﻿// Modified by Rob on 06-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
 
-public class LowerPlatform1 : MonoBehaviour {
+public class RisePlatform : MonoBehaviour {
+	private Vector3 startPosition;
+	private Vector3 endPosition;
 	private bool down = false;
-	public Vector3 startPosition;
-	public Vector3 endPosition;
 	public float speed = 2.0F;
 
 	// Use this for initialization
@@ -27,9 +27,9 @@ public class LowerPlatform1 : MonoBehaviour {
 
 		// Lower the platform when the button is down or rise when it is up
 		if (down == true) {
-			transform.position = Vector3.Lerp(transform.position, endPosition, Time.deltaTime);
+			transform.position = Vector3.Lerp (transform.position, endPosition, Time.deltaTime * speed);
 		} else {
-			transform.position = Vector3.Lerp(transform.position, startPosition, Time.deltaTime);
+			transform.position = Vector3.Lerp (transform.position, startPosition, Time.deltaTime * speed);
 		}
 	}
 }
