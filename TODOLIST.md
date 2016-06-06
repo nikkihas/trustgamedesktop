@@ -3,7 +3,8 @@
 —
 
 ## General
-- FINAL MODELS!!!! (DONE DONE DONE)!!!!!
+
+- Charlie kan amper omhoog lopen, slope angle, step angle
 
 - Make character move faster
 	- Don't make the character faster, it is adjusted to the speed of the PS3 Controller which is different from they keyboard.
@@ -16,6 +17,9 @@
 - Fade out when dying
 - Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
 - Play only this sound and mute the rest (level02, "was that really so difficult" after completing the level, at that point you don't want to hear instructions anymore)
+
+- Charlie plakt aan de muur wanneer je naar voren ingedrukt houdt
+
 
 ## Level 00 (Intro)
 - Start Level01 after x seconds (done dealio!)
@@ -34,6 +38,7 @@
 ## Level 05
 - Rotating Object make child
 - Moving object make child
+- "RestartLevelFake": Speel geluid af, restart and destroy gameObject zodat je er uiteindelijk langs kunt.
 
 ## Level 06
 - Clean up hierarchy (done)
@@ -59,9 +64,9 @@
 - Instead of opening the doors with rotation, the doors now open with moving the x position
 - Remove old platform (I kept it there in case you need to see how I made the previous version.
 
-## Level 09
+## Level 10
 - Create an infinite loop for when players choose one of the paths in front of them. When to go back on the platform behind them it brings them to the 'secret' space above Charlie (name of character).
--
+- Cannot slow down current RigidbodyFPSController.speed = 1f; see "speedDown1". "speedDown2" worked with previous controller. 
 
 
 ## Discuss

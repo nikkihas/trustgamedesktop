@@ -1,10 +1,10 @@
 ﻿// Copied from http://wiki.unity3d.com/index.php?title=RigidbodyFPSWalker, modified on 06-06-2016, please do not edit
 
-var speed = 10.0;
-var gravity = 10.0;
+var speed = 2.5;
+var gravity = 3.0;
 var maxVelocityChange = 10.0;
-var canJump = true;
-var jumpHeight = 2.0;
+var canJump = false;
+var jumpHeight = 4.0;
 private var grounded = false;
  
 @script RequireComponent(Rigidbody, CapsuleCollider)

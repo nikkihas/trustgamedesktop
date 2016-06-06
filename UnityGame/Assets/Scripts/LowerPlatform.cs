@@ -7,7 +7,7 @@ public class LowerPlatform : MonoBehaviour {
 	private Vector3 startPosition;
 	private Vector3 endPosition;
 	private bool down = false;
-	public float speed = 2.0F;
+	public float speed = 1.0F;
 
 	// Use this for initialization
 	void Start () {
