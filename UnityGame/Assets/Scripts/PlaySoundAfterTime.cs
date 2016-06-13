@@ -7,12 +7,15 @@ public class PlaySoundAfterTime : MonoBehaviour {
 	private bool playAudio = false;
 	public float timer = 2.0F;
 
-	// Update is called once per frame
-	public void Update() {
+	// Use this for initialization
+	void Start () {
 		// Start the coroutine
 		StartCoroutine (waitForSeconds ());
+	}
 
-		// Play sound when the timer has reached zero
+	// Update is called once per frame
+	public void Update() {
+		// Play an audio clip when the timer has reached zero
 		if (playAudio == true) {
 			// Reset the boolean
 			playAudio = false;
@@ -24,7 +27,7 @@ public class PlaySoundAfterTime : MonoBehaviour {
 
 	// Wait for a number of seconds
 	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds(0.5F);
+		yield return new WaitForSeconds(timer);
 		playAudio = true;
 	}
 }
