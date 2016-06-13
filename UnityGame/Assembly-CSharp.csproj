@@ -47,7 +47,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DestroyColliderMove.cs" />
      <Compile Include="Assets\Scripts\DestroyObjectCollision.cs" />
-     <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight01.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight02.cs" />
      <Compile Include="Assets\Scripts\LowerPlatform.cs" />
@@ -56,11 +55,15 @@
      <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\NextLevelAfterChoice.cs" />
      <Compile Include="Assets\Scripts\NextLevelAfterTime.cs" />
+     <Compile Include="Assets\Scripts\PlayAudioOnCollision.cs" />
+     <Compile Include="Assets\Scripts\PlaySoundAfterTime.cs" />
      <Compile Include="Assets\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\Scripts\RestartLevelFake.cs" />
      <Compile Include="Assets\Scripts\RestartLevelPlayer2.cs" />
+     <Compile Include="Assets\Scripts\RigidbodyController.cs" />
      <Compile Include="Assets\Scripts\RisePlatform.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Scripts\SpeedDown.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatform01.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatform02.cs" />
@@ -69,10 +72,6 @@
      <Compile Include="Assets\Scripts\buttonDown.cs" />
      <Compile Include="Assets\Scripts\dontDestroy.cs" />
      <Compile Include="Assets\Scripts\playDontMove.cs" />
-     <Compile Include="Assets\Scripts\playSoundAfterDeath.cs" />
-     <Compile Include="Assets\Scripts\playSoundAfterTime.cs" />
-     <Compile Include="Assets\Scripts\speedDown1.cs" />
-     <Compile Include="Assets\Scripts\speedDown2.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

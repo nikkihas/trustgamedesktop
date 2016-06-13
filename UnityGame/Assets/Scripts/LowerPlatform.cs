@@ -1,4 +1,4 @@
-﻿// Modified by Rob on 06-06-2016, please do not edit
+﻿// Modified by Rob on 13-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -7,12 +7,13 @@ public class LowerPlatform : MonoBehaviour {
 	private Vector3 startPosition;
 	private Vector3 endPosition;
 	private bool down = false;
-	public float speed = 1.0F;
+	public float distance = 3;
+	public float speed = 2.0F;
 
 	// Use this for initialization
 	void Start () {
-		startPosition = new Vector3 (0, 4, -2);
-		endPosition = new Vector3 (0, 0, -2);
+		startPosition = transform.position;
+		endPosition = startPosition + new Vector3 (0, distance, 0);
 	}
 
 	// Update is called once per frame
@@ -31,9 +32,9 @@ public class LowerPlatform : MonoBehaviour {
 
 		// Lower the platform when the button is down or rise when it is up
 		if (down == true) {
-			transform.position = Vector3.Lerp (transform.position, endPosition, Time.deltaTime * speed);
-		} else {
 			transform.position = Vector3.Lerp (transform.position, startPosition, Time.deltaTime * speed);
+		} else {
+			transform.position = Vector3.Lerp (transform.position, endPosition, Time.deltaTime * speed);
 		}
 	}
 

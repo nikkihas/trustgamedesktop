@@ -5,9 +5,9 @@ using System.Collections;
 
 public class DestroyObjectCollision : MonoBehaviour {
 	
-	// Destroy a mesh collider when the player on collision
+	// Destroy a mesh collider when the player collides with the object
 	void OnTriggerEnter (Collider col) {
-		if(col.gameObject.tag == "Player") {
+		if (col.gameObject.tag == "Player") {
 			Destroy(GameObject.Find ("Invisible"));
 		}
 	}
