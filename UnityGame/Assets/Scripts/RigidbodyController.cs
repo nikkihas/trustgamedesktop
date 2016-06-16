@@ -10,7 +10,7 @@ public class RigidbodyController : MonoBehaviour {
 	public static Quaternion startRotation;
 	public static float movementSpeed = 0.05F;
 	public float rotationSpeed = 1.0F;
-	public float jumpSpeed = 5.0F;
+	public float jumpSpeed = 8.0F;
 	public bool allowedToJump = false;
 	public static int timesRespawned;
 
