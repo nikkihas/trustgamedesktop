@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DisableObjectCollision.cs" />
+     <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight01.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight02.cs" />
      <Compile Include="Assets\Scripts\MoveObject.cs" />
@@ -53,9 +54,9 @@
      <Compile Include="Assets\Scripts\MovePlatformGlitch.cs" />
      <Compile Include="Assets\Scripts\MoveWithObject.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
-     <Compile Include="Assets\Scripts\NextLevelAfterChoice.cs" />
-     <Compile Include="Assets\Scripts\NextLevelAfterTime.cs" />
+     <Compile Include="Assets\Scripts\NextLevelTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollision.cs" />
+     <Compile Include="Assets\Scripts\PlayAudioCollisionTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioRespawn.cs" />
      <Compile Include="Assets\Scripts\PlayAudioRespawnTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioTime.cs" />

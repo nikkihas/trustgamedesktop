@@ -1,4 +1,6 @@
-﻿// Modified by Rob on 15-06-2016, please do not edit
+﻿// Merge with PlayAudioCollisionTime!
+
+// Modified by Rob on 15-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;

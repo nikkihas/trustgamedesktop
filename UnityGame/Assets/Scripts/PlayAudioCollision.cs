@@ -1,45 +1,41 @@
-﻿// Obselete! Use PlayAudioRespawn instead
-// Modified by Rob on 13-06-2016, please do not edit
+﻿// Modified by Rob on 18-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
 
 public class PlayAudioCollision : MonoBehaviour {
-	private float playAudio = 0;
-	public AudioSource audioFile01;
-	public AudioSource audioFile02;
-	public AudioSource audioFile03;
-	// Add more if necessary
-
-	// Use this for initialization
-	void Start () {
-		AudioSource[] source = GetComponents<AudioSource> ();
-		audioFile01 = source [0];
-		audioFile01 = source [1];
-		audioFile01 = source [2];
-	}
+	private bool playAudio = false;
+	private bool audioIsPlayed = false;
+	public static int timesCollided = 0;
+	public int triggerAmount = 1;
 
 	// Update is called once per frame
-	void Update () {
-		// Play an audio clip when the player collides with the object
-		if (playAudio == 1) {
-			playAudio++;
-			audioFile01.Play ();
+	public void Update() {
+		// Play an audio clip when Charlie has collided with the object for a specific amount of times
+		if (timesCollided == triggerAmount && audioIsPlayed == false) {
+			StartCoroutine (waitForSeconds ());
 		}
-		if (playAudio == 3) {
-			playAudio++;
-			audioFile01.Play ();
-		}
-		if (playAudio == 5) {
-			playAudio++;
-			audioFile01.Play ();
+		if (playAudio == true) {
+			// Reset the boolean
+			playAudio = false;
+			// Stop the coroutine
+			StopAllCoroutines ();
+			GetComponent<AudioSource>().Play();
+			// Set the boolean to true to prevent the audio clip form being played multiple times
+			audioIsPlayed = true;
 		}
 	}
 
-	// Add one to value the when the player collides with the object
+	// No comment!
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Player") {
-			playAudio++;
+			timesCollided++;
 		}
+	}
+
+	// Wait for a number of seconds
+	IEnumerator waitForSeconds() {
+		yield return new WaitForSeconds(0.5F);
+		playAudio = true;
 	}
 }

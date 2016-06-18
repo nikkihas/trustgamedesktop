@@ -1,19 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayAudioRespawnTime.cs">
-    <Files>
-      <File FileName="Assets/Scripts/RotateWalkwayMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RigidbodyController.cs" Line="46" Column="2" />
-      <File FileName="Assets/Scripts/PlayAudioTime.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NextLevel.cs" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/StartGame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayAudioRespawnTime.cs" Line="9" Column="31" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/robvanderburg/Documents/GitHub/trustgamedesktop/UnityGame/Assets/Scripts/PlayAudioCollision.cs" line="19" column="28" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

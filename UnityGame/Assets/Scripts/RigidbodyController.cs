@@ -8,8 +8,8 @@ public class RigidbodyController : MonoBehaviour {
 	public Rigidbody rb;
 	public static Vector3 startPosition;
 	public static Quaternion startRotation;
-	public static float movementSpeed = 0.05F;
-	public float rotationSpeed = 1.0F;
+	public static float movementSpeed;
+	public static float rotationSpeed;
 	public float jumpSpeed = 8.0F;
 	public bool allowedToJump = false;
 	public static int timesRespawned;
@@ -19,7 +19,11 @@ public class RigidbodyController : MonoBehaviour {
 		rb = GetComponent<Rigidbody> ();
 		// Set Charlie's start position and rotation
 		startPosition = transform.position;
-		startRotation = Quaternion.Euler (0, 180, 0);
+		startRotation = Quaternion.identity;
+		// Set Charlie's movement and rotation speed
+		movementSpeed = 0.05F;
+		rotationSpeed = 1.0F;
+		// Reset the respawn counter
 		timesRespawned = 0;
 	}
 

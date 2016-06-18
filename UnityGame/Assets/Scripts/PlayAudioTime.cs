@@ -5,7 +5,7 @@ using System.Collections;
 
 public class PlayAudioTime : MonoBehaviour {
 	private bool playAudio = false;
-	public float timer = 1.0F;
+	public float delay = 1.0F;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +27,7 @@ public class PlayAudioTime : MonoBehaviour {
 
 	// Wait for a number of seconds
 	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds(timer);
+		yield return new WaitForSeconds(delay);
 		playAudio = true;
 	}
 }
