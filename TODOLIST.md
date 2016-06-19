@@ -1,11 +1,5 @@
 # To do list
 
-
-##############################
-# IN VOLGORDE VAN PRIORITEIT #
-##############################
-
-
 ## Level 10
 - Create an infinite loop for when players choose one of the paths in front of them. When to go back on the platform behind them it brings them to the 'secret' space above Charlie.
 
@@ -21,10 +15,6 @@
 - Button down doesn't change color, it only pushes the little hexagon within the big hexagon, when the player steps away the hexagon goes back up
 - Instead of opening the doors with rotation, the doors now open with moving the x position
 - Remove old platform (I kept it there in case you need to see how I made the previous version.
-
-## Level 07:
-- Je kunt weer double-jumpen
-	- Indien het grounded script niet lukt zouden we misschien een triggerbox kunnen maken boven de platformen, hierin is de input "2" enabled, hierbuiten disabled.
 
 ## Level 08
 - Change exit platform to make Player 2 press "X" at least 20 times, after that you win level when Player 2 quits pressing
@@ -55,31 +45,12 @@
 - Set IndicatorLights to layers so the players see different light
 - Bug: Als ik op de final platform loop draait de brug 180 graden en tript die hem (zou te maken kunnen hebben met de trigger die doorloopt waar de brug eindigt?
 
-
-##################
-# IN GESPREK MET #
-##################
-
+## Fixed on 18-06-2016 (28 hours total)
+- Squashed some cockroaches.
+- De glitch met de platformen moet je zelf oplossen. Ik heb hem werkend afgeleverd. De code is correct, zie kubus in level.
 
 ## Control Scheme
 1 = Square
 2 = Cross
 3 = Circle
 4 = Triangle
-
-## Fixed on 18-06-2016 (26 hours total)
-- Added screen fading test.
-	- LOOKS AWESOME!!!!!!! (remove when read)
-
-## For Nikki
-v Rotate the Charlie to 0 in every level.
-v Describe the functions in a better way, its totally unclear (level 05, 08 and 10).
-- Keep everything nice and tidy! Errors will be the result of a messy workspace.
-
-## Intro (remove when read)
-- Added "StartSound" to start the music in the Intro
-- Added "NextLevelIntro" to start Level01 after 50s
-
-## General (remove when read)
-- Changed "NextLevel" from "GameObject.Find ("_GM")" to "GameObject.Find ("GameManager")".
-- Added "GameManager" and "ScreenFader" to each scene.

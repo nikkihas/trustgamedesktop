@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Collections;
 
 public class RigidbodyController : MonoBehaviour {
-	private bool grounded = false;
+	public bool grounded = false;
 	public Rigidbody rb;
 	public static Vector3 startPosition;
 	public static Quaternion startRotation;
@@ -40,7 +40,7 @@ public class RigidbodyController : MonoBehaviour {
 		rb.MovePosition (transform.position + movement); 
 
 		// Make Charlie jump when he is grounded and when it is allowed
-		if (Input.GetButtonDown ("2") && allowedToJump == true) {
+		if (Input.GetButtonDown ("2") && allowedToJump == true && grounded == true) {
 			rb.velocity = new Vector3 (0, jumpSpeed, 0);
 		}
 		// Reset the boolean
