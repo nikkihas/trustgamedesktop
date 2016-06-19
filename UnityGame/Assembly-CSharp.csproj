@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\MovePlatformGlitch.cs" />
      <Compile Include="Assets\Scripts\MoveWithObject.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\NextLevelIntro.cs" />
      <Compile Include="Assets\Scripts\NextLevelTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollision.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollisionTime.cs" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\Scripts\RotateWalkwayMove.cs" />
      <Compile Include="Assets\Scripts\SpeedDown.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\StartSound.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatform.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatformDelay.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatformGlitch.cs" />

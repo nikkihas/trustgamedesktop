@@ -17,7 +17,8 @@ public class NextLevel : MonoBehaviour {
 
 	// Wait for a number of seconds
 	IEnumerator loadNextLevel() {
-		float fadeTime =  GameObject.Find ("_GM").GetComponent<Fading>().BeginFade(1);
+		// float fadeTime =  GameObject.Find ("_GM").GetComponent<Fading>().BeginFade(1);
+		float fadeTime =  GameObject.Find ("GameManager").GetComponent<Fading>().BeginFade(1);
 		yield return new WaitForSeconds(fadeTime);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 	}

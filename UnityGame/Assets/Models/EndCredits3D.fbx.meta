@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: e08daa55dfaff4731a8d09fc764862d1
-timeCreated: 1464032264
+timeCreated: 1466288918
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    0: //RootNode
     100000: Cap_1
     100002: Cap_2
     100004: //RootNode
@@ -24,7 +25,8 @@ ModelImporter:
     4300000: Extrude_NURBS
     4300002: Cap_1
     4300004: Cap_2
-    4300006: Extrude_NURBS_1
+    4300006: Credits
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -83,7 +85,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
