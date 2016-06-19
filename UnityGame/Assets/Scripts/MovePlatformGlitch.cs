@@ -1,4 +1,5 @@
 ﻿// Modified by Rob on 13-06-2016, please do not edit
+// Modified by Nikki on 19-06-2016, please reproduce
 
 using UnityEngine;
 using System.Collections;
@@ -40,7 +41,7 @@ public class MovePlatformGlitch : MonoBehaviour {
 
 	// Generate a random interval
 	IEnumerator randomlyRisePlatform () {
-		var waitTime = Random.Range(1f, 1.5f);
+		var waitTime = Random.Range(0.5f, 1.0f);
 		yield return new WaitForSeconds (waitTime);
 		down = false;
 	}

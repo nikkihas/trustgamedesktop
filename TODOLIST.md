@@ -38,19 +38,17 @@
 - Script: Go to "End" scene when TotalTime = 0
 - TotalTime: Ticking down from 12 minutes, every time Charlie dies -10 seconds from TotalTime
 
-## Level05:
-- Reset timelimit if Position resets
-
 ## Level 06
 - Set IndicatorLights to layers so the players see different light
-- Bug: Als ik op de final platform loop draait de brug 180 graden en tript die hem (zou te maken kunnen hebben met de trigger die doorloopt waar de brug eindigt?
 
-## Fixed on 18-06-2016 (28 hours total)
-- Squashed some cockroaches.
-- De glitch met de platformen moet je zelf oplossen. Ik heb hem werkend afgeleverd. De code is correct, zie kubus in level.
+## Level05:
+- Reset timelimit if Position resets
 
 ## Control Scheme
 1 = Square
 2 = Cross
 3 = Circle
 4 = Triangle
+
+## Remove when read
+- Changed variables in "MovePlatformGlitch"
