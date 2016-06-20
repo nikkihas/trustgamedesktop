@@ -1,5 +1,5 @@
-﻿// Modified by Rob on 18-06-2016, please do not edit
-// Works with PlayAudioCollision script
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
+// Works with PlayAudioCollisionSingle script
 
 using UnityEngine;
 using System.Collections;
@@ -12,18 +12,19 @@ public class PlayAudioCollisionTime : MonoBehaviour {
 
 	// Update is called once per frame
 	public void Update() {
-		// Play an audio clip when Charlie has collided with the object for a specific amount of times
-		if (PlayAudioCollision.timesCollided == triggerAmount && audioIsPlayed == false) {
+		// Play an audio clip after a specific amount of time, when Charlie has collided with the object for a specific amount of times
+		if (PlayAudioCollisionSingle.timesCollided == triggerAmount && audioIsPlayed == false) {
 			StartCoroutine (waitForSeconds ());
 		}
 		if (playAudio == true) {
+			// Stop the coroutine
+			StopCoroutine ("waitForSeconds");
+			// Set the boolean to prevent the audio clip form being played multiple times
+			audioIsPlayed = true;
+			// Play the audio clip
+			GetComponent<AudioSource>().Play();
 			// Reset the boolean
 			playAudio = false;
-			// Stop the coroutine
-			StopAllCoroutines ();
-			GetComponent<AudioSource>().Play();
-			// Set the boolean to true to prevent the audio clip form being played multiple times
-			audioIsPlayed = true;
 		}
 	}
 

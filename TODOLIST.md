@@ -1,4 +1,4 @@
-# To do list
+# To do list (36 hours total)
 
 ## Level 10
 - Create an infinite loop for when players choose one of the paths in front of them. When to go back on the platform behind them it brings them to the 'secret' space above Charlie.
@@ -7,39 +7,17 @@
 	- Er staan screenshots ter verduidelijking in de "trustgamedesktop" map (waarin ook de ToDoList staat)
 	- Indien een gebrek aan tijd zouden we boven alle 3 de platformen een resetLevel trigge kunnen maken. Dat zou het level alleen wel een beetje verpesten omdat je snel door je keuzes en ideeen heen bent en als snel voor "I Give Up" gaan.
 	
-## End
-- Restart Game after 1m (Is het dan het handigst om de scene naar "Intro" te veranderen? Of misschien helemaal opnieuw builden?)
-
-## Level 09
+## Level 09 (is not possible to build in the remaining time)
 - On button down 85% "right" door opens a little, 15% "wrong" door resets and closes
 - Button down doesn't change color, it only pushes the little hexagon within the big hexagon, when the player steps away the hexagon goes back up
 - Instead of opening the doors with rotation, the doors now open with moving the x position
 - Remove old platform (I kept it there in case you need to see how I made the previous version.
 
-## Level 08
-- Change exit platform to make Player 2 press "X" at least 20 times, after that you win level when Player 2 quits pressing
-	- Duidelijke versie: On Trigger Platform: If input "2" is pressed 20 times and Charlie leaves Trigger, next level. 
-- Voice: Level8b is the opening text for trigger. I want Level8c to loop after Level8b has ended
-	- Duidelijke versie: On Trigger Platform Enter: Play Level8b (no loop) after 6 seconds play Level8c (loop)
-
-## Level04:
-- If Charlie collides with "Goal" freeze position, fade to black, start
-- If Charlie collides with "Goal" play sound that is on gameObject, not all sounds
-
-## Level05:
-- Bug: Charlie veranderd van grootte op de RotatingPlatform
-- Speel niet "Instruction x" wanneer level wordt gereset door de triggers (dus waarbij het lijkt waarop P2 het level reset)
-	- Duidelijke versie: Wanneer het level wordt gereset door de ResetPoint01 en Resetpoint02 (de triggers welke suggereert dat P2 het level reset), mogen de soundtracks "Instuctions 3x", "Instruction 4x" etc. niet worden afgespeeld, je valt namelijk niet naar beneden.
-
 ## General
 - Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
 - Fix bug with audio sources playing through each other.
-- Fade out music similar to screen fader, lower the volume over the same length as the screen fader for a smooth transition.
 - Script: Go to "End" scene when TotalTime = 0
 - TotalTime: Ticking down from 12 minutes, every time Charlie dies -10 seconds from TotalTime
-
-## Level 06
-- Set IndicatorLights to layers so the players see different light
 
 ## Level05:
 - Reset timelimit if Position resets
@@ -50,5 +28,9 @@
 3 = Circle
 4 = Triangle
 
-## Remove when read
-- Changed variables in "MovePlatformGlitch"
+## To do Nikki
+- Copy GameManager from Level01 and copy to all scenes.
+- Delete Music object from all scenes.
+- Replace audio source in all GameManager objects to the file for that scene and double check if the volume is set to 0 and loop to active.
+- Do not scale objects, give them a actual size. This prevents parenting issues. This still has to be corrected with the moving platform in Level05.
+- Adjust the lights in Level06. See: http://docs.unity3d.com/Manual/class-Light.html

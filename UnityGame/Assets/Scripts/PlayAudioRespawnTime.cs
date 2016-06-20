@@ -1,6 +1,4 @@
-﻿// Merge with PlayAudioCollisionTime!
-
-// Modified by Rob on 15-06-2016, please do not edit
+﻿// Modified by Rob on 15-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -12,18 +10,19 @@ public class PlayAudioRespawnTime : MonoBehaviour {
 
 	// Update is called once per frame
 	public void Update() {
-		// Play an audio clip when Charlie has been respawned for a specific amount of times and after a specific amount of seconds
+		// Play an audio clip when Charlie has been	 respawned for a specific amount of times and after a specific amount of seconds
 		if (RespawnTimer.time >= triggerTime && audioIsPlayed == false) {
 			StartCoroutine (waitForSeconds ());
 		}
 		if (playAudio == true) {
+			// Stop the coroutine
+			StopCoroutine ("waitForSeconds");
+			// Set the boolean to prevent the audio clip form being played multiple times
+			audioIsPlayed = true;
+			// Play the audio clip
+			GetComponent<AudioSource>().Play();
 			// Reset the boolean
 			playAudio = false;
-			// Stop the coroutine
-			StopAllCoroutines ();
-			GetComponent<AudioSource>().Play();
-			// Set the boolean to true to prevent the audio clip form being played multiple times
-			audioIsPlayed = true;
 		}
 	}
 

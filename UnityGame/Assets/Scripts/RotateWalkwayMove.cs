@@ -1,4 +1,4 @@
-﻿// Modified by Rob on 15-06-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -12,14 +12,14 @@ public class RotateWalkwayMove : MonoBehaviour {
 	public bool forbiddenToMove = false;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
 		// Set the start and end rotation of the walkway
 		startRotation = transform.rotation;
 		endRotation = Quaternion.Euler (0, 0, rotationDistance);
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update() {
 		// Check if the light is red
 		if (GameObject.Find ("IndicatorLight01").GetComponent<IndicatorLight01> ().indicatorIsRed == true) {
 			StartCoroutine (waitForSeconds ());

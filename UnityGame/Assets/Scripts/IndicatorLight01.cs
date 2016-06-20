@@ -1,4 +1,4 @@
-﻿// Modified by Rob on 27-05-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -14,7 +14,7 @@ public class IndicatorLight01 : MonoBehaviour {
 		// Set the start color of the light
 		indicatorLight.color = Color.green;
 		// Start the coroutine
-		StartCoroutine(randomInterval());
+		StartCoroutine (randomInterval());
 	}
 
 	// Update is called once per frame

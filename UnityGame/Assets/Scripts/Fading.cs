@@ -1,4 +1,5 @@
 ﻿// Copied from http://brackeys.com/preview/2d-platformer-course/
+// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -10,6 +11,7 @@ public class Fading : MonoBehaviour {
 
 	private int drawDepth = -1000;		// the texture's order in the draw hierarchy: a low number means it renders on top
 	private float alpha = 1.0f;			// the texture's alpha value between 0 and 1
+	private float audioVolume = 1.0f;	// Added by Rob
 	private int fadeDir = -1;			// the direction to fade: in = -1 or out = 1
 
 	void OnGUI()
@@ -23,6 +25,12 @@ public class Fading : MonoBehaviour {
 		GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, alpha);
 		GUI.depth = drawDepth;																// make the black texture render on top (drawn last)
 		GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeOutTexture);		// draw the texture to fit the entire screen area
+
+		// Added by Rob
+		// Fade the audio volume in and out using a direction, a speed and Time.deltaTime
+		audioVolume -= fadeDir * fadeSpeed * Time.deltaTime;
+		audioVolume = Mathf.Clamp01(audioVolume);
+		GetComponent<AudioSource>().volume = audioVolume;
 	}
 
 	// sets fadeDir to the direction parameter making the scene fade in if -1 and out if 1

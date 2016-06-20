@@ -1,4 +1,4 @@
-﻿// Modified by Rob on 06-06-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -6,6 +6,8 @@ using System.Collections;
 public class StopRotatingPlatformGlitch : MonoBehaviour {
 	private bool rotateObject = true;
 	public float speed = 100.0F;
+	public float delayMinimum = 1.0F;
+	public float delayMaximum = 2.0F;
 
 	// Update is called once per frame
 	void Update () {
@@ -16,7 +18,6 @@ public class StopRotatingPlatformGlitch : MonoBehaviour {
 		if (Input.GetButtonDown ("4")) {
 			rotateObject = true;
 		}
-
 		// Stop the rotating platform when the button is down or start when it is up
 		if (rotateObject == false) {
 			transform.Rotate (new Vector3 (0, 0, 0));
@@ -28,14 +29,14 @@ public class StopRotatingPlatformGlitch : MonoBehaviour {
 
 	// Generate a random interval
 	IEnumerator randomlyStopPlatform () {
-		var waitTime = Random.Range (1f, 2f);
+		var waitTime = Random.Range (delayMinimum, delayMaximum);
 		yield return new WaitForSeconds (waitTime);
 		rotateObject = false;
 	}
 
 	// Generate a random interval
 	IEnumerator randomlyStartPlatform () {
-		var waitTime = Random.Range (1f, 2f);
+		var waitTime = Random.Range (delayMinimum, delayMaximum);
 		yield return new WaitForSeconds (waitTime);
 		rotateObject = true;
 	}

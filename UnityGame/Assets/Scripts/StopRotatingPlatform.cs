@@ -1,4 +1,4 @@
-﻿// Modified by Rob on 06-06-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -16,7 +16,6 @@ public class StopRotatingPlatform : MonoBehaviour {
 		if (Input.GetButtonUp ("2")) {
 			rotateObject = true;
 		}
-
 		// Stop the rotating platform when the button is down or start when it is up
 		if (rotateObject == false) {
 			transform.Rotate (new Vector3 (0, 0, 0));

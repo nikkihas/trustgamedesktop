@@ -1,6 +1,4 @@
-﻿// Merge with PlayAudioCollision!
-
-// Modified by Rob on 15-06-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -17,19 +15,20 @@ public class PlayAudioRespawn : MonoBehaviour {
 			StartCoroutine (waitForSeconds ());
 		}
 		if (playAudio == true) {
+			// Stop the coroutine
+			StopCoroutine ("waitForSeconds");
+			// Set the boolean to prevent the audio clip form being played multiple times
+			audioIsPlayed = true;
+			// Play the audio clip
+			GetComponent<AudioSource>().Play();
 			// Reset the boolean
 			playAudio = false;
-			// Stop the coroutine
-			StopAllCoroutines ();
-			GetComponent<AudioSource>().Play();
-			// Set the boolean to true to prevent the audio clip form being played multiple times
-			audioIsPlayed = true;
 		}
 	}
 
 	// Wait for a number of seconds
 	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds(0.5F);
+		yield return new WaitForSeconds(1.0F);
 		playAudio = true;
 	}
 }

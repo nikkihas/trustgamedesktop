@@ -1,8 +1,7 @@
-﻿// Modified by Rob on 15-06-2016, please do not edit
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class ResetPositionHitbox : MonoBehaviour {
 	private bool playAudio = false;
@@ -11,32 +10,26 @@ public class ResetPositionHitbox : MonoBehaviour {
 	public void Update() {
 		// Play an audio clip and reset Charlie's position when he collides with the object
 		if (playAudio == true) {
-			// Reset the boolean
-			playAudio = false;
-			// Stop the coroutine
-			StopCoroutine ("waitForSeconds");
 			// Play the audio clip
 			GetComponent<AudioSource>().Play();
 			// Start the coroutine
-			StartCoroutine (destroyObject ());
+			StartCoroutine (waitForSeconds ());
+			// Reset the boolean
+			playAudio = false;
 		}
 	}
 
+	// Set the boolean and reset Charlie's position when he collides with the object
 	void OnTriggerEnter(Collider col) {
 		if (col.gameObject.tag == "Player") {
-			// Start the coroutine
-			StartCoroutine (waitForSeconds ());
+			playAudio = true;
+			GameObject.Find ("Player01").transform.position = RigidbodyController.startPosition;
+			GameObject.Find ("Player01").transform.rotation = RigidbodyController.startRotation;
 		}
 	}
 
 	// Wait for a number of seconds
 	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds (0.5F);
-		playAudio = true;
-	}
-
-	// Wait for a number of seconds
-	IEnumerator destroyObject() {
 		yield return new WaitForSeconds (10.0F);
 		Destroy (gameObject);
 	}

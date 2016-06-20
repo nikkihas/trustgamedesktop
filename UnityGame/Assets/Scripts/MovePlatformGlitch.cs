@@ -1,5 +1,4 @@
-﻿// Modified by Rob on 13-06-2016, please do not edit
-// Modified by Nikki on 19-06-2016, please reproduce
+﻿// Modified and checked by Rob on 20-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -9,16 +8,18 @@ public class MovePlatformGlitch : MonoBehaviour {
 	private Vector3 endPosition;
 	private bool down = false;
 	public float distance = 3;
-	public float speed = 2.0F;
+	public float speed = 0.5F;
+	public float delayMinimum = 1.0F;
+	public float delayMaximum = 2.0F;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
 		startPosition = transform.position;
 		endPosition = startPosition + new Vector3 (0, distance, 0);
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update() {
 		// Check if the button is down or up
 		if (Input.GetButtonDown ("1")) {
 			down = true;
@@ -30,8 +31,7 @@ public class MovePlatformGlitch : MonoBehaviour {
 			// Stop the coroutine
 			StopAllCoroutines ();
 		}
-
-		// Lower the platform when the button is down or rise when it is up
+		// Move the platform
 		if (down == true) {
 			transform.position = Vector3.Lerp (transform.position, startPosition, Time.deltaTime * speed);
 		} else {
@@ -40,8 +40,8 @@ public class MovePlatformGlitch : MonoBehaviour {
 	}
 
 	// Generate a random interval
-	IEnumerator randomlyRisePlatform () {
-		var waitTime = Random.Range(0.5f, 1.0f);
+	IEnumerator randomlyRisePlatform() {
+		var waitTime = Random.Range(delayMinimum, delayMaximum);
 		yield return new WaitForSeconds (waitTime);
 		down = false;
 	}
