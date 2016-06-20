@@ -1,5 +1,8 @@
 # To do list (36 hours total)
 
+## Intro
+- Next Level after 49 seconds
+
 ## Level 10
 - Create an infinite loop for when players choose one of the paths in front of them. When to go back on the platform behind them it brings them to the 'secret' space above Charlie.
 
@@ -14,10 +17,15 @@
 - Remove old platform (I kept it there in case you need to see how I made the previous version.
 
 ## General
+- Mountain Moving script
 - Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
 - Fix bug with audio sources playing through each other.
 - Script: Go to "End" scene when TotalTime = 0
 - TotalTime: Ticking down from 12 minutes, every time Charlie dies -10 seconds from TotalTime
+- Fade out to black when dying, Fade in on Respawm
+
+## Level 08
+- Fade out takes way longer than normal
 
 ## Level05:
 - Reset timelimit if Position resets
@@ -29,8 +37,10 @@
 4 = Triangle
 
 ## To do Nikki
-- Copy GameManager from Level01 and copy to all scenes.
-- Delete Music object from all scenes.
-- Replace audio source in all GameManager objects to the file for that scene and double check if the volume is set to 0 and loop to active.
-- Do not scale objects, give them a actual size. This prevents parenting issues. This still has to be corrected with the moving platform in Level05.
+v Copy GameManager from Level01 and copy to all scenes.
+v Delete Music object from all scenes.
+v Replace audio source in all GameManager objects to the file for that scene and double check if the volume is set to 0 and loop to active.
+	- Outro does not loop, is that ok?
+	- Intro has volume = 1 because it doesn't play automatically, probably because of "StartGame.cs"
+v Do not scale objects, give them a actual size. This prevents parenting issues. This still has to be corrected with the moving platform in Level05.
 - Adjust the lights in Level06. See: http://docs.unity3d.com/Manual/class-Light.html
