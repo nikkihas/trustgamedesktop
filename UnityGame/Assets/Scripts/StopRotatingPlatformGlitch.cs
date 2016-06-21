@@ -37,7 +37,7 @@ public class StopRotatingPlatformGlitch : MonoBehaviour {
 	// Generate a random interval
 	IEnumerator randomlyStartPlatform () {
 		var waitTime = Random.Range (delayMinimum, delayMaximum);
-		yield return new WaitForSeconds (waitTime);
+		yield return new WaitForSeconds (2);
 		rotateObject = true;
 	}
 }

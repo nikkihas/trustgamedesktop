@@ -1,6 +1,6 @@
 # To do list (37 hours total)
 
-## Intro
+## Level08
 - Next Level after 49 seconds
 
 ## General
@@ -8,7 +8,8 @@
 - Play sound on function (Platform Rise / Lower, Jump / Press X for platfom level08
 - Fix bug with audio sources playing through each other.
 - Script: Go to "End" scene when TotalTime = 0
-- TotalTime: Ticking down from 12 minutes, every time Charlie dies -10 seconds from TotalTime
+- TotalTime: Ticking down from 18 minutes, every time Charlie dies -10 seconds from TotalTime
+- TimeLimit per level
 - Fade out to black when dying, Fade in on Respawm
 
 ## Level05:
@@ -22,3 +23,6 @@
 
 ## To do Nikki
 - Adjust the lights in Level06. See: http://docs.unity3d.com/Manual/class-Light.html
+
+## For Rob
+- Level08: Stop sound when players leave trigger

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\MoveWithObject.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
      <Compile Include="Assets\Scripts\NextLevelExit.cs" />
+     <Compile Include="Assets\Scripts\NextLevelTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollisionSingle.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollisionTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioRespawn.cs" />
