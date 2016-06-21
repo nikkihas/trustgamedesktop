@@ -1,7 +1,11 @@
 # To do list (37 hours total)
 
 ## Level08
-- Next Level after 49 seconds
+- Stop audio when you leave trigger
+
+## Outro
+- Stop Time
+- When level resets, remove time, start again from level01
 
 ## General
 - Mountain Moving script
