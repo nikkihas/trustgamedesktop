@@ -45,6 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MovePlatformLeft.cs" />
+     <Compile Include="Assets\MovePlatformMiddle.cs" />
+     <Compile Include="Assets\MovePlatformRight.cs" />
+     <Compile Include="Assets\PlatformLeftController.cs" />
+     <Compile Include="Assets\PlatformMiddleController.cs" />
+     <Compile Include="Assets\PlatformRightController.cs" />
      <Compile Include="Assets\Scripts\DisableObjectCollision.cs" />
      <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\GlobalVariables.cs" />
