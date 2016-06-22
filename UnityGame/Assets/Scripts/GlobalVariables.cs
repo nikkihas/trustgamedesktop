@@ -2,27 +2,20 @@
 
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GlobalVariables : MonoBehaviour {
-	public static bool audioIsPlaying;
-
+	
 	// Use this for initialization
 	void Start() {
-		// Reset the boolean
-		audioIsPlaying = false;
+
 	}
 	
 	// Update is called once per frame
 	void Update() {
-		if (audioIsPlaying == true) {
-			// Start the coroutine
-			StartCoroutine (waitForSeconds ());
+		// Reset the game when all the buttons are pressed at the same time
+		if (Input.GetButtonDown ("start") && Input.GetButtonDown ("1") && Input.GetButtonDown ("2")) {
+			SceneManager.LoadScene (0);
 		}
-	}
-
-	// Wait for a number of seconds
-	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds(10.0F);
-		audioIsPlaying = false;
 	}
 }

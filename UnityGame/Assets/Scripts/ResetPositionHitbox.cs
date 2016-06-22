@@ -30,7 +30,7 @@ public class ResetPositionHitbox : MonoBehaviour {
 
 	// Wait for a number of seconds
 	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds (10.0F);
+		yield return new WaitForSeconds (5.0F);
 		Destroy (gameObject);
 	}
 }
