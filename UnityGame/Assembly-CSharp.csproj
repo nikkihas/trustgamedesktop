@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameTimer.cs" />
      <Compile Include="Assets\MovePlatformLeft.cs" />
      <Compile Include="Assets\MovePlatformMiddle.cs" />
      <Compile Include="Assets\MovePlatformRight.cs" />

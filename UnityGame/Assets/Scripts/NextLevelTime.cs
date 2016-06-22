@@ -9,5 +9,9 @@ public class NextLevelTime : MonoBehaviour {
 		IEnumerator Start () {
 			yield return new WaitForSeconds (delay);
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+			// Reset the game time
+			GameTimer.timeLeft = 720.0F;
+			// Start the game timer
+			GameTimer.timerStarted = true;
 		}
 	}

@@ -58,6 +58,7 @@ public class RigidbodyController : MonoBehaviour {
 			transform.position = startPosition;
 			transform.rotation = startRotation;
 			timesRespawned++;
+			GameTimer.timeLeft -= 10.0F;
 		}
 	}
 }
