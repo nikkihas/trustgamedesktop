@@ -26,7 +26,7 @@ public class NextLevelGlitch : MonoBehaviour {
 
 	void OnTriggerExit (Collider col) {
 		// Load the next level when Charlie exits the object and the button has been pressed the required amount of times
-		if (col.gameObject.tag == "Player" && timesPressed > 20) {
+		if (col.gameObject.tag == "Player" && timesPressed > 10) {
 			// Set Charlie's movement and rotation speed to zero to prevent him from moving
 			RigidbodyController.movementSpeed = 0.0F;
 			RigidbodyController.rotationSpeed = 0.0F;

@@ -13,5 +13,9 @@
 - Reset timelimit if Position resets
 
 ## To do Nikki
+
+## Did Nikki
+- Screen.showCursor = false; op GameManager
 - Highscore
+- Intro tijd aanpassen (16)
 - Simplify Level05

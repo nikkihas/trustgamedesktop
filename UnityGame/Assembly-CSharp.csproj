@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\TimeTotal.cs" />
      <Compile Include="Assets\Scripts\buttonDown.cs" />
      <Compile Include="Assets\Scripts\dontDestroy.cs" />
+     <Compile Include="Assets\Scripts\hideMouse.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
