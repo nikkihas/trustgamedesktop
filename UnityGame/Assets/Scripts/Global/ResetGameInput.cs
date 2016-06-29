@@ -1,15 +1,10 @@
-﻿// Modified and checked by Rob on 20-06-2016, please do not edit
+﻿// Modified and checked by Rob on 29-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class GlobalVariables : MonoBehaviour {
-	
-	// Use this for initialization
-	void Start() {
-
-	}
+public class ResetGameInput : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update() {

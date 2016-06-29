@@ -45,26 +45,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameTimer.cs" />
-     <Compile Include="Assets\MovePlatformLeft.cs" />
-     <Compile Include="Assets\MovePlatformMiddle.cs" />
-     <Compile Include="Assets\MovePlatformRight.cs" />
-     <Compile Include="Assets\PlatformLeftController.cs" />
-     <Compile Include="Assets\PlatformMiddleController.cs" />
-     <Compile Include="Assets\PlatformRightController.cs" />
+     <Compile Include="Assets\Scripts\Common\PlayAudioCollision.cs" />
      <Compile Include="Assets\Scripts\DisableObjectCollision.cs" />
-     <Compile Include="Assets\Scripts\Fading.cs" />
-     <Compile Include="Assets\Scripts\GlobalVariables.cs" />
+     <Compile Include="Assets\Scripts\Global\Fading.cs" />
+     <Compile Include="Assets\Scripts\Global\GameTimer.cs" />
+     <Compile Include="Assets\Scripts\Global\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\Global\ResetGameInput.cs" />
+     <Compile Include="Assets\Scripts\Global\RigidbodyController.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight01.cs" />
      <Compile Include="Assets\Scripts\IndicatorLight02.cs" />
+     <Compile Include="Assets\Scripts\Level08\NextLevelGlitch.cs" />
+     <Compile Include="Assets\Scripts\Level08\RotateHitboxInput.cs" />
      <Compile Include="Assets\Scripts\MoveObject.cs" />
      <Compile Include="Assets\Scripts\MovePlatform.cs" />
      <Compile Include="Assets\Scripts\MovePlatformGlitch.cs" />
+     <Compile Include="Assets\Scripts\MovePlatformLeft.cs" />
+     <Compile Include="Assets\Scripts\MovePlatformMiddle.cs" />
+     <Compile Include="Assets\Scripts\MovePlatformRight.cs" />
      <Compile Include="Assets\Scripts\MoveWithObject.cs" />
-     <Compile Include="Assets\Scripts\NextLevel.cs" />
-     <Compile Include="Assets\Scripts\NextLevelExit.cs" />
      <Compile Include="Assets\Scripts\NextLevelTime.cs" />
-     <Compile Include="Assets\Scripts\PlayAudioCollisionSingle.cs" />
+     <Compile Include="Assets\Scripts\PlatformLeftController.cs" />
+     <Compile Include="Assets\Scripts\PlatformMiddleController.cs" />
+     <Compile Include="Assets\Scripts\PlatformRightController.cs" />
      <Compile Include="Assets\Scripts\PlayAudioCollisionTime.cs" />
      <Compile Include="Assets\Scripts\PlayAudioRespawn.cs" />
      <Compile Include="Assets\Scripts\PlayAudioRespawnTime.cs" />
@@ -73,7 +75,6 @@
      <Compile Include="Assets\Scripts\ResetPositionHitbox.cs" />
      <Compile Include="Assets\Scripts\ResetPositionInput.cs" />
      <Compile Include="Assets\Scripts\RespawnTimer.cs" />
-     <Compile Include="Assets\Scripts\RigidbodyController.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
      <Compile Include="Assets\Scripts\RotateWalkwayMove.cs" />
      <Compile Include="Assets\Scripts\SpeedDown.cs" />

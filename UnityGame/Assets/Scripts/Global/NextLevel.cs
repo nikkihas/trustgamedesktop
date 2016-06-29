@@ -1,4 +1,4 @@
-﻿// Modified and checked by Rob on 20-06-2016, please do not edit
+﻿// Modified and checked by Rob on 29-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
@@ -18,16 +18,10 @@ public class NextLevel : MonoBehaviour {
 		}
 	}
 
-	// Fade the screen to black
+	// Fade the screen to black and load the next level
 	IEnumerator fadeScreen() {
 		float fadeTime =  GameObject.Find("GameManager").GetComponent<Fading>().BeginFade(1);
 		yield return new WaitForSeconds(fadeTime);
-		// Start the coroutine
-		StartCoroutine(waitForSeconds ());
-	}
-
-	// Wait for a number of seconds and load the next level
-	IEnumerator waitForSeconds() {
 		yield return new WaitForSeconds(delay);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 	}

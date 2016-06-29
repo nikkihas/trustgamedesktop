@@ -55,10 +55,24 @@ public class RigidbodyController : MonoBehaviour {
 	// Send Charlie back to the start position when he dies
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Respawn") {
-			transform.position = startPosition;
-			transform.rotation = startRotation;
-			timesRespawned++;
-			GameTimer.timeLeft -= 10.0F;
+			// Start the courotine
+			StartCoroutine (fadeScreen());
 		}
+	}
+
+	// Fade the screen to black and reset Charlie's position
+	IEnumerator fadeScreen() {
+		float fadeTime =  GameObject.Find("GameManager").GetComponent<Fading>().BeginFade(1);
+		yield return new WaitForSeconds(fadeTime);
+		// Reset Charlie's position
+		transform.position = startPosition;
+		transform.rotation = startRotation;
+		// Subtract an amount of time from the game time
+		GameTimer.timeLeft -= 10.0F;
+		// Increment the amount of times respawned
+		timesRespawned++;
+		// Fade the sceen from black to normal
+		yield return new WaitForSeconds(1.0F);
+		GameObject.Find("GameManager").GetComponent<Fading>().BeginFade(-1);
 	}
 }

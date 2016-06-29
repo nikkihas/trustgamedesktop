@@ -6,14 +6,20 @@ using System.Collections;
 
 public class PlayAudioCollisionTime : MonoBehaviour {
 	private bool playAudio = false;
-	private bool audioIsPlayed = false;
+	private bool audioIsPlayed;
 	public int triggerAmount = 1;
 	public float delay = 10.0F;
+
+	// Use this for initialization
+	void Start() {
+		// Set the boolean
+		audioIsPlayed = false;
+	}
 
 	// Update is called once per frame
 	public void Update() {
 		// Play an audio clip after a specific amount of time, when Charlie has collided with the object for a specific amount of times
-		if (PlayAudioCollisionSingle.timesCollided == triggerAmount && audioIsPlayed == false) {
+		if (PlayAudioCollision.timesCollided == triggerAmount && audioIsPlayed == false) {
 			StartCoroutine (waitForSeconds ());
 		}
 		if (playAudio == true) {

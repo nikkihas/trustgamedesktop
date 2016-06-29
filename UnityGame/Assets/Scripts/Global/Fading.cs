@@ -1,5 +1,5 @@
 ﻿// Copied from http://brackeys.com/preview/2d-platformer-course/
-// Modified and checked by Rob on 20-06-2016, please do not edit
+// Modified and checked by Rob on 29-06-2016, please do not edit
 
 using UnityEngine;
 using System.Collections;
