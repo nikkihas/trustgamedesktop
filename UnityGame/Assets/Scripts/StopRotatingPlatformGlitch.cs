@@ -1,4 +1,5 @@
 ﻿// Modified and checked by Rob on 20-06-2016, please do not edit
+// Edited by Nikki 27-06-2016, removed "var waitTime"
 
 using UnityEngine;
 using System.Collections;
@@ -36,8 +37,8 @@ public class StopRotatingPlatformGlitch : MonoBehaviour {
 
 	// Generate a random interval
 	IEnumerator randomlyStartPlatform () {
-		var waitTime = Random.Range (delayMinimum, delayMaximum);
-		yield return new WaitForSeconds (2);
+		//var waitTime = Random.Range (delayMinimum, delayMaximum);
+		yield return new WaitForSeconds (4);
 		rotateObject = true;
 	}
 }
