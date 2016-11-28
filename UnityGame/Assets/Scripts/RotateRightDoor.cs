@@ -3,10 +3,10 @@
 using UnityEngine;
 using System.Collections;
 
-public class RotateDoor : MonoBehaviour {
+public class RotateRightDoor : MonoBehaviour {
 	private Quaternion startRotation;
 	private Quaternion targetRotation;
-	public float degrees = 3;
+	public float degrees = 6;
 	public float speed = 2.0F;
 
 	// Use this for initialization
@@ -18,10 +18,10 @@ public class RotateDoor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// Rotate the door with a specified amount of degrees
-		if (DoorController.openDoor == true) {
+		if (DoorController.openRightDoor == true) {
 			targetRotation *= Quaternion.Euler (0, 0, degrees);
 			// Reset the boolean
-			DoorController.openDoor = false;
+			DoorController.openRightDoor = false;
 		}
 		// Return the door to the start posistion
 		if (DoorController.timesPressed == 0) {

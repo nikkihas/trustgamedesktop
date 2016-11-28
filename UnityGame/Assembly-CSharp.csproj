@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Common\PlayAudioCollision.cs" />
      <Compile Include="Assets\Scripts\DisableObjectCollision.cs" />
+     <Compile Include="Assets\Scripts\DisplaySubtitles.cs" />
      <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\Global\Fading.cs" />
      <Compile Include="Assets\Scripts\Global\GameTimer.cs" />
@@ -78,8 +79,9 @@
      <Compile Include="Assets\Scripts\ResetPositionHitbox.cs" />
      <Compile Include="Assets\Scripts\ResetPositionInput.cs" />
      <Compile Include="Assets\Scripts\RespawnTimer.cs" />
-     <Compile Include="Assets\Scripts\RotateDoor.cs" />
+     <Compile Include="Assets\Scripts\RotateLeftDoor.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Scripts\RotateRightDoor.cs" />
      <Compile Include="Assets\Scripts\RotateWalkwayMove.cs" />
      <Compile Include="Assets\Scripts\SpeedDown.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />

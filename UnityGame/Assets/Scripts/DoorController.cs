@@ -6,7 +6,8 @@ using System.Collections;
 public class DoorController : MonoBehaviour {
 	private float currentTimesPressed = 0;
 	public static float timesPressed = 0;
-	public static bool openDoor = false;
+	public static bool openRightDoor = false;
+	public static bool openLeftDoor = false;
 	private float threshold;
 	public AudioSource rightSound;
 	public AudioSource wrongSound;
@@ -16,13 +17,14 @@ public class DoorController : MonoBehaviour {
 		// Generate a random threshold
 		threshold = Random.Range (2, 6);
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		// Open the door when the button is pressed within the threshold
 		if (timesPressed <= threshold && timesPressed != currentTimesPressed) {
-			// Set the boolean
-			openDoor = true;
+			// Set the booleans
+			openRightDoor = true;
+			openLeftDoor = true;
 			// Set the float
 			currentTimesPressed = timesPressed;
 			// Play a sound
