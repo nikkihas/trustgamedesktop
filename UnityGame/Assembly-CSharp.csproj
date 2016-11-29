@@ -46,8 +46,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Common\PlayAudioCollision.cs" />
+     <Compile Include="Assets\Scripts\DestroyStart.cs" />
+     <Compile Include="Assets\Scripts\DestroyTime.cs" />
      <Compile Include="Assets\Scripts\DisableObjectCollision.cs" />
-     <Compile Include="Assets\Scripts\DisplaySubtitles.cs" />
      <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\Global\Fading.cs" />
      <Compile Include="Assets\Scripts\Global\GameTimer.cs" />
@@ -67,6 +68,8 @@
      <Compile Include="Assets\Scripts\MovePlatformRight.cs" />
      <Compile Include="Assets\Scripts\MoveWithObject.cs" />
      <Compile Include="Assets\Scripts\NextLevelTime.cs" />
+     <Compile Include="Assets\Scripts\OpenLeftDoor.cs" />
+     <Compile Include="Assets\Scripts\OpenRightDoor.cs" />
      <Compile Include="Assets\Scripts\PlatformLeftController.cs" />
      <Compile Include="Assets\Scripts\PlatformMiddleController.cs" />
      <Compile Include="Assets\Scripts\PlatformRightController.cs" />
@@ -79,9 +82,7 @@
      <Compile Include="Assets\Scripts\ResetPositionHitbox.cs" />
      <Compile Include="Assets\Scripts\ResetPositionInput.cs" />
      <Compile Include="Assets\Scripts\RespawnTimer.cs" />
-     <Compile Include="Assets\Scripts\RotateLeftDoor.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
-     <Compile Include="Assets\Scripts\RotateRightDoor.cs" />
      <Compile Include="Assets\Scripts\RotateWalkwayMove.cs" />
      <Compile Include="Assets\Scripts\SpeedDown.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
@@ -89,6 +90,8 @@
      <Compile Include="Assets\Scripts\StopRotatingPlatform.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatformDelay.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatformGlitch.cs" />
+     <Compile Include="Assets\Scripts\SubtitlesCollision.cs" />
+     <Compile Include="Assets\Scripts\SubtitlesTime.cs" />
      <Compile Include="Assets\Scripts\TimeTotal.cs" />
      <Compile Include="Assets\Scripts\buttonDown.cs" />
      <Compile Include="Assets\Scripts\dontDestroy.cs" />

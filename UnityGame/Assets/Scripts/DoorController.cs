@@ -17,12 +17,12 @@ public class DoorController : MonoBehaviour {
 		// Generate a random threshold
 		threshold = Random.Range (2, 6);
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		// Open the door when the button is pressed within the threshold
 		if (timesPressed <= threshold && timesPressed != currentTimesPressed) {
-			// Set the booleans
+			// Set the boolean
 			openRightDoor = true;
 			openLeftDoor = true;
 			// Set the float
