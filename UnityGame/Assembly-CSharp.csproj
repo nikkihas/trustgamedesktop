@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\StopRotatingPlatformDelay.cs" />
      <Compile Include="Assets\Scripts\StopRotatingPlatformGlitch.cs" />
      <Compile Include="Assets\Scripts\SubtitlesCollision.cs" />
+     <Compile Include="Assets\Scripts\SubtitlesRespawn.cs" />
      <Compile Include="Assets\Scripts\SubtitlesTime.cs" />
      <Compile Include="Assets\Scripts\TimeTotal.cs" />
      <Compile Include="Assets\Scripts\buttonDown.cs" />

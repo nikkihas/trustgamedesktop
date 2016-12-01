@@ -3,7 +3,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class SubtitlesCollision : MonoBehaviour {
+public class SubtitlesRespawn : MonoBehaviour {
 	private bool visible;
 	private bool subtitlesAreDisplayed;
 	public GUIStyle style;
@@ -22,25 +22,13 @@ public class SubtitlesCollision : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (PlayAudioCollision.timesCollided == triggerAmount && subtitlesAreDisplayed == false) {
+		if (RigidbodyController.timesRespawned == triggerAmount && subtitlesAreDisplayed == false) {
 			// Set the boolean to prevent the subtitles from being displayed multiple times
 			subtitlesAreDisplayed = true;
 			// Hide the text after a specified amount of time
 			Invoke ("DisplayText", delay);
 			Invoke ("HideText", delay + time);
 		}
-	}
-
-	// NIKKI DE PROGRAMMEUR
-	void OnTriggerEnter(Collider other) {
-		StartCoroutine (waitForSeconds());
-	}
-
-	// Wait for a specified amount of time
-	IEnumerator waitForSeconds() {
-		yield return new WaitForSeconds(time);
-		// Destroy the game object
-		Destroy(gameObject);
 	}
 
 	// Set the boolean to true
